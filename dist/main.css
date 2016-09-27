@@ -81,9 +81,9 @@ div#nav-component {
   background-repeat: no-repeat; }
 
 .title-container {
-  position: absolute;
+  position: relative;
   height: 200px;
-  bottom: 100px; }
+  bottom: 100%; }
 
 .hover-title {
   z-index: 1;
@@ -94,6 +94,7 @@ div#nav-component {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #EFDB57; }
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #FFD94A; }
 
 /*# sourceMappingURL=main.css.map */

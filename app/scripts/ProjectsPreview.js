@@ -50,7 +50,7 @@ export default React.createClass({
   // }
 
     return (
-      <li className="project-li">
+      <li className="project-li" onMouseEnter={this.showImg} onMouseLeave={this.hideImg}>
         <div
           className="squareImg"
           value="Flatiron"
@@ -59,13 +59,11 @@ export default React.createClass({
             backgroundImage: `url(${this.props.project.url})`,
             filter: `${grayscale}`,
             transition: '900ms',
-          }}
-          onMouseEnter={this.showImg}>
+          }}>
         </div>
         <div className='title-container' style={{filter:`grayscale(0)`}} onMouseLeave={this.hideImg}>
           {hoverTitle}
         </div>
-
       </li>
     )
   }
