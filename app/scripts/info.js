@@ -1,21 +1,21 @@
 var info = [
   {
       id: 1,
-      url:'/assets/flatironColor.png',
+      url:'/assets/btbColor.png',
       name:' Bring The Band',
       about:  'Bring the band allows users to vote for musicians they want to see at the venue. The venue hopes to gain a following, and boost their patron engagement by tracking popular bands, and trends in their market share',
     },
 
     {
     id:2,
-    url:'/assets/flatironColor.png',
+    url:'/assets/snackColor.png',
     name: 'Snack Attack',
     about: 'A computer game created with HTML5 Cnavas and Javascript, where the objective is to catch as much falling food with the frying pan as you can in the time alloted '
   },
 
     {
     id:3,
-    url:'/assets/flatironColor.png',
+    url:'/assets/sohColor.png',
     name: 'Sarah Oliver Handbags',
     about:'Sarah Oliver Handbags offers elegant, designer purses, and clutches with a twist: every equisite bag is made by The Purlettes, the unique knitting team comprised of talented senior citizens. Sarah Oliver Handbags wanted to rebrand their image to attract a younger demographic, hoping to expand their market to women of all ages.',
     film: 'Dorian Cohen &  Daniella Flores'
@@ -23,7 +23,7 @@ var info = [
  {
    id:4,
    name:'Save The Bay',
-   url:'/assets/flatironColor.png',
+   url:'/assets/stbColor.png',
 
    quote:'"Save The Bay is a stimulating non-profit designated to keep the San Francisco Bay healthy, ensuing hygenic communities for the residents and general public in the surrounding areas."',
 
@@ -34,19 +34,19 @@ var info = [
  {
    id:5,
    name: 'American Turko-Tatar Association San Francisco Bay Area',
-   url:'/assets/flatironColor.png',
+   url:'/assets/attaColor.png',
    about: 'The Tatars were a very small minority among the many nationalities in CAlifornia. In order to preserve the traditions of their forefathers, a few induviduals decided to organize the Tatar community declaring that the most important goals were the preservation of their cultural, ethnic, and religious interests of the Tatar community. After being distinguished in the San Francisco Bay Area for over 50 years, the ATTA has decided to rebrand their image and logo to represent a more Americanized organization.'
  },
  {
    id:6,
    name:'Clockwork',
-   url:'/assets/flatironColor.png',
+   url:'/assets/clockworkColor.png',
    about:'A 3D model of a pocketwatch made in Cinema 4D.'
  },
  {
    id:7,
    name:'VH1 Promo',
-   url:'/assets/flatironColor.png',
+   url:'/assets/vh1Color.png',
    about:'A bumper for VH1 Television Network. Modeled in Cinema 4D and After Effects.'
  },
  {
@@ -65,7 +65,7 @@ var info = [
  {
    id:10,
    name:'Wilderness',
-   url:'/assets/flatironColor.png',
+   url:'/assets/wildernessColor.png',
    about:'Inspired by David Hockney:Seven Yorkshire Landscape Videos,2011, I created my own rendition in the Redwood Regional Forest and Muir Woods.'
  }
  // {

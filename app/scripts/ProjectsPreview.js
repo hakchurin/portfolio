@@ -1,6 +1,10 @@
 import React from 'react';
 import info from './info';
 
+
+
+
+
 export default React.createClass({
   getInitialState() {
     return {
@@ -8,7 +12,6 @@ export default React.createClass({
     }
   },
   showImg() {
-    console.log(this.props.project);
     this.setState({
       hover: true,
     });
@@ -19,18 +22,33 @@ export default React.createClass({
   render() {
     let hoverTitle;
     let grayscale;
+    let hoverImg;
     if (this.state.hover) {
       hoverTitle = (<h2
         className="hover-title"
         style={{
           transition: 'height 500ms',
           height: '100%',
-        }}
-      >{this.props.project.name}</h2>);
-      grayscale = 'grayscale(80%)';
-    } else {
-      grayscale = 'grayscale(0%)';
-    }
+          filter:'grayscale(0%)',
+        }}>
+        {this.props.project.name}</h2>);
+        grayscale = 'grayscale(100%)';
+  } else {
+    grayscale= 'grayscale(0%)'
+  }
+  // if (this.state.hover) {
+  //   hoverImg = (<div
+  //     className="hover-img"
+  //     style={{
+  //       transition: 'height 500ms',
+  //       height: '100%',
+  //     }}>
+  //     {this.props.project.url}</div>);
+  //
+  // } else {
+  // grayscale = 'grayscale(0%)';
+  // }
+
     return (
       <li className="project-li">
         <div
@@ -40,12 +58,14 @@ export default React.createClass({
           style={{
             backgroundImage: `url(${this.props.project.url})`,
             filter: `${grayscale}`,
-            transition: '3500ms',
+            transition: '900ms',
           }}
-          onMouseEnter={this.showImg}
-          onMouseLeave={this.hideImg}>
-            {hoverTitle}
+          onMouseEnter={this.showImg}>
         </div>
+        <div className='title-container' style={{filter:`grayscale(0)`}} onMouseLeave={this.hideImg}>
+          {hoverTitle}
+        </div>
+
       </li>
     )
   }

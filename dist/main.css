@@ -61,12 +61,11 @@ div#nav-component {
   opacity: 1;
   color: red; }
 
-li.squareImg {
-  width: 25%;
+.project-li {
+  width: 200px;
   height: 200px;
   list-style-type: none;
-  overflow: hidden;
-  position: relative; }
+  overflow: hidden; }
 
 .project-img img {
   width: 100%;
@@ -74,21 +73,27 @@ li.squareImg {
   height: 200px; }
 
 .squareImg {
-  height: 200px;
-  width: 200px;
+  height: 100%;
+  width: 100%;
   background-size: cover;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat; }
 
+.title-container {
+  position: absolute;
+  height: 200px;
+  bottom: 100px; }
+
 .hover-title {
+  z-index: 1;
   margin: 0;
   height: 0;
+  width: 200px;
   transition: 500ms;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.2);
-  color: white; }
+  color: #EFDB57; }
 
 /*# sourceMappingURL=main.css.map */
