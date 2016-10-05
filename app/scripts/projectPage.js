@@ -26,7 +26,10 @@ render(){
         <h2 className="projectName">{project.name}</h2>
 
           <p className="projectPageInfo"> {project.about}  </p>
-          <a href={project.url}> Live Site </a>
+          <div className="linkContainer">
+          <a href={project.url}><i className="fa fa-desktop" aria-hidden="true"></i></a>
+          <a href={project.git} className="github"><i className="fa fa-github-square github" aria-hidden="true"></i></a>
+          </div>
         </div>
       </section>
     </div>

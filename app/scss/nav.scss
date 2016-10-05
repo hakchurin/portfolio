@@ -2,3 +2,16 @@
   list-style-type: none;
   justify-content: space-around;
 }
+
+
+li.li-link{
+  padding-right: 50px;
+  a {
+    color:$font-color;
+    text-decoration: none;
+      &:hover{
+        color:$primary;
+      }
+
+  }
+}

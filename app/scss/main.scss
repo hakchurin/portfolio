@@ -1,4 +1,4 @@
-// @import '_variables.scss';
+@import 'variables.scss';
 @import 'home.scss';
 @import 'nav.scss';
 @import 'projectPage.scss';
@@ -10,7 +10,7 @@ body {
     padding: 0;
     line-height: 1.5;
     font-family: sans-serif;
-    background-color: #D0DADA;
+    background-color: $background;
 }
 .home-content-container {
     display: flex;
@@ -45,9 +45,7 @@ img.logo {
 h1 {
     margin-top: 2.5rem;
 }
-li.li-link {
-    padding-right: 50px;
-}
+
 div#nav-component {
     width: 68%;
     display: flex;

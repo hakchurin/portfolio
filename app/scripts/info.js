@@ -6,6 +6,7 @@ var info = [
       projectRoute: 'BringTheBand',
       url:'http://bring-the-band.surge.sh/',
       name:' Bring The Band',
+      git:`https://github.com/hakchurin`,
       about:  'Bring the band allows users to vote for musicians they want to see at the venue. The venue hopes to gain a following, and boost their patron engagement by tracking popular bands, and trends in their market share',
     },
 
@@ -82,10 +83,6 @@ var info = [
  //   url:'/assets/flatironColor.png',
  //   about:'Greetings! My name is Haley Akchurin, I am a Front-End Engineer and Motion Graphic Designer. Born and Raised in the San Francisco Bay Area, I came into this world a fine artist and grew into a mature Motiongrapher with a BS degree in Motion Graphic Design. I enjoy 3D modeling, title sequences, and color. My hopes are to become a colossal designer, creating an atistic empire that can be translated, understood, and appreciated amongst a wide variety of people. When I am not behind a computer, you can find me in a museum, at the gym, or on the couch catching up on reality television'
  // }
-
-
-
-
 
 
 ]

@@ -1,3 +1,6 @@
+
+
+
 figure.shadowBoxImg {
     height: 500px;
     width: 800px;
@@ -8,6 +11,8 @@ figure.shadowBoxImg {
 
 p.projectPageInfo {
     width: 400px;
+    color:$font-color;
+
 }
 section.projectContentContainer {
     display: flex;
@@ -25,6 +30,10 @@ section.projectContentContainer {
 .shadowBtn {
     font-size: 5rem;
     // color: white;
+    color:$secondary;
+      &:hover{
+        cursor:pointer;
+      }
 }
 
 .buttonContainer{
@@ -46,6 +55,42 @@ section.projectContentContainer {
   // list-style-type: circle;
   height: 20px;
   width: 20px;
-  background-color: black;
+  background-color: $secondary;
   border-radius: 50%;
+}
+
+
+
+
+h2.projectName{
+  color:$font-color;
+  font-size: 40px;
+margin: 0;
+}
+
+
+.projectInfoContainer {
+  a{
+    color:$font-color;
+      &:hover{
+        color:$primary;
+      }
+  }
+}
+
+
+.linkContainer{
+  justify-content: space-between;
+width: 8rem;
+align-items: center;
+display: flex;
+  a {
+    font-size: 3rem;
+
+  }
+}
+
+
+i.fa.fa-github-square.github{
+      font-size: 53px;
 }
