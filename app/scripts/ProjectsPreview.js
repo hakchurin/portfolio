@@ -1,7 +1,7 @@
 import React from 'react';
 import info from './info';
-
-
+import projectPage from './projectPage';
+import {Router, Route, browserHistory} from 'react-router';
 
 
 
@@ -19,6 +19,10 @@ export default React.createClass({
   hideImg() {
     this.setState({hover: false});
   },
+  goToProject: function(){
+    browserHistory.push(`/projects/${this.props.project.projectRoute}`);
+
+  },
   render() {
     let hoverTitle;
     let grayscale;
@@ -33,30 +37,17 @@ export default React.createClass({
         }}>
         {this.props.project.name}</h2>);
         grayscale = 'grayscale(100%)';
-  } else {
-    grayscale= 'grayscale(0%)'
-  }
-  // if (this.state.hover) {
-  //   hoverImg = (<div
-  //     className="hover-img"
-  //     style={{
-  //       transition: 'height 500ms',
-  //       height: '100%',
-  //     }}>
-  //     {this.props.project.url}</div>);
-  //
-  // } else {
-  // grayscale = 'grayscale(0%)';
-  // }
-
+    } else {
+      grayscale= 'grayscale(0%)'
+    }
     return (
-      <li className="project-li" onMouseEnter={this.showImg} onMouseLeave={this.hideImg}>
+      <li className="project-li" onMouseEnter={this.showImg} onMouseLeave={this.hideImg} onClick={this.goToProject}>
         <div
           className="squareImg"
           value="Flatiron"
           ref='project'
           style={{
-            backgroundImage: `url(${this.props.project.url})`,
+            backgroundImage: `url(${this.props.project.image})`,
             filter: `${grayscale}`,
             transition: '900ms',
           }}>

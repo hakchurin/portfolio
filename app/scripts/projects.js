@@ -22,16 +22,3 @@ export default React.createClass({
     );
     }
 });
-
-
-//
-//
-//
-// <li className="squareImg"><img src="/assets/sohColor.png" className="soh" /></li>
-// <li className="squareImg"><img src="/assets/stbColor.png" className="stb" /></li>
-// <li className="squareImg"><img src="/assets/vh1Color.png" className="vh1" /></li>
-// <li className="squareImg"><img src="/assets/watchColor.png" className="watch" /></li>
-// <li className="squareImg"><img src="/assets/btbColor.png" className="btb" /></li>
-// <li className="squareImg"><img src="/assets/snackColor.png" className="snack" /></li>
-// <li className="squareImg"><img src="/assets/wildernessColor.png" className="snack" /></li>
-// <li className="squareImg"><img src="/assets/saturnColor.png" className="snack" /></li>

@@ -1,0 +1,51 @@
+figure.shadowBoxImg {
+    height: 500px;
+    width: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // margin:0 auto;
+}
+
+p.projectPageInfo {
+    width: 400px;
+}
+section.projectContentContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+.shadowBoxComp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.shadowBtn {
+    font-size: 5rem;
+    // color: white;
+}
+
+.buttonContainer{
+  justify-content: space-between;
+  display: flex;
+  width: 75%;
+}
+
+.shadowUlBtn {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.shadowLiBtn {
+  // list-style-type: circle;
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  border-radius: 50%;
+}

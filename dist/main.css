@@ -2,11 +2,88 @@
   list-style-type: none;
   justify-content: space-around; }
 
+figure.shadowBoxImg {
+  height: 500px;
+  width: 800px;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+p.projectPageInfo {
+  width: 400px; }
+
+section.projectContentContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  top: 50px; }
+
+.shadowBoxComp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.shadowBtn {
+  font-size: 5rem; }
+
+.buttonContainer {
+  justify-content: space-between;
+  display: flex;
+  width: 75%; }
+
+.shadowUlBtn {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%; }
+
+.shadowLiBtn {
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  border-radius: 50%; }
+
+#slide-out-left {
+  animation: slide-out-left 500ms; }
+
+@keyframes slide-out-left {
+  from {
+    transform: translateX(0%); }
+  to {
+    transform: translateX(-100%); } }
+#slide-out-right {
+  animation: slide-out-right 500ms; }
+
+@keyframes slide-out-right {
+  from {
+    transform: translateX(0%); }
+  to {
+    transform: translateX(100%); } }
+#slide-in-left {
+  animation: slide-in-left 500ms; }
+
+@keyframes slide-in-left {
+  from {
+    transform: translateX(-100%); }
+  to {
+    transform: translateX(0%); } }
+#slide-in-right {
+  animation: slide-in-right 500ms; }
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%); }
+  to {
+    transform: translateX(0%); } }
 body {
   margin: 0;
   padding: 0;
   line-height: 1.5;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  background-color: #D0DADA; }
 
 .home-content-container {
   display: flex; }
@@ -14,7 +91,7 @@ body {
 p.p-about-me {
   width: 98%;
   text-align: justify;
-  margin-left: .5rem; }
+  margin-left: 0.5rem; }
 
 .home-content-container {
   margin: 0 auto;
@@ -95,6 +172,8 @@ div#nav-component {
   align-items: center;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.6);
-  color: #FFD94A; }
+  color: #FFD94A;
+  text-align: center;
+  cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */
