@@ -28,7 +28,7 @@ render() {
       if (object.videoURL) {
         videoBtn = (<i className="videoBtn fa fa-desktop" aria-hidden="true" onClick={this.showModal}></i>);
       } else {
-        videoBtn = (<a href={project.url}><i className="projectLink fa fa-desktop" aria-hidden="true"></i></a>);
+        videoBtn = (<a href={object.url}><i className="projectLink fa fa-desktop" aria-hidden="true"></i></a>);
       }
       return object;
     }

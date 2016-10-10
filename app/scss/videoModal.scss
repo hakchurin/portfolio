@@ -1,4 +1,4 @@
-.modalContainer {
+#modalContainer {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -10,12 +10,13 @@
   background-color: rgba(#000, .5);
 }
 
-.modalContent {
+#modalContent {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 65%;
   width: 90%;
+  max-width: 41rem;
   background-color: #FFF;
 
   h2 {
@@ -35,7 +36,7 @@
   color: $background;
 }
 
-.closeBtn {
+#closeModalBtn {
   background: none;
   outline: none;
   border: none;

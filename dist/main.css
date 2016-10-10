@@ -86,7 +86,7 @@ h2.projectName {
   .projectLink:hover, .videoBtn:hover {
     cursor: pointer; }
 
-.modalContainer {
+#modalContainer {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -97,14 +97,15 @@ h2.projectName {
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.5); }
 
-.modalContent {
+#modalContent {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 65%;
   width: 90%;
+  max-width: 41rem;
   background-color: #FFF; }
-  .modalContent h2 {
+  #modalContent h2 {
     margin: 0;
     height: 3rem; }
 
@@ -118,11 +119,11 @@ h2.projectName {
   font-size: 1rem;
   color: #ABABAB; }
 
-.closeBtn {
+#closeModalBtn {
   background: none;
   outline: none;
   border: none; }
-  .closeBtn:hover {
+  #closeModalBtn:hover {
     cursor: pointer; }
 
 #slide-out-left {

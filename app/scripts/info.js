@@ -1,5 +1,5 @@
 var info = [
-  {
+    {
       id: 1,
       image:'/assets/btbColor.png',
       shadowBoxImg: ['/assets/btb/login.png','/assets/btb/btbBand.png', '/assets/btb/btbLogo.png'],
@@ -53,22 +53,28 @@ var info = [
    id:6,
    name:'Clockwork',
    image:'/assets/clockworkColor.png',
-   shadowBoxImg:['https://vimeo.com/149682799'],
+   projectRoute:'Clockwork',
+   shadowBoxImg:['/assets/clock/clock1.png','/assets/clock/clock2.png','/assets/clock/clock3.png'],
    about:'A 3D model of a pocketwatch made in Cinema 4D.',
-   url:'https://vimeo.com/149682799'
+   url:'https://vimeo.com/149682799',
+   videoURL:'https://vimeo.com/145183740'
  },
  {
    id:7,
    name:'VH1 Promo',
    projectRoute: 'VH1Promo',
    image:'/assets/vh1Color.png',
-   about:'A bumper for VH1 Television Network. Modeled in Cinema 4D and After Effects.'
+   shadowBoxImg:['/assets/vh1/vh11.png', '/assets/vh1/vh12.png', '/assets/vh1/vh13.png'],
+   about:'A bumper for VH1 Television Network. Modeled in Cinema 4D and After Effects.',
+   videoURL:'https://vimeo.com/145188793'
  },
  {
    id:8,
    name:'Saturn',
    projectRoute: 'Saturn',
    image:'/assets/saturnColor.png',
+   videoURL:'https://vimeo.com/149682799',
+   shadowBoxImg:['/assets/saturn/saturn1.png','/assets/saturn/saturn2.png', '/assets/saturn/saturn3.png'],
    about:'A 3D model of a Solar System scene which includes a train, Saturn, and an astronaut designed in Cinema 4D.'
  },
  {
@@ -76,6 +82,8 @@ var info = [
    name:'Flatiron',
    projectRoute: 'Flatiron',
    image:'/assets/flatironColor.png',
+   videoURL:'https://vimeo.com/145181949',
+   shadowBoxImg:['/assets/flatiron/flatiron.png'],
    about:'A timelapse of the Boulder,Colorado Flatirons.'
  },
  {
@@ -83,6 +91,8 @@ var info = [
    name:'Wilderness',
    projectRoute: 'Wilderness',
    image:'/assets/wildernessColor.png',
+   shadowBoxImg:['/assets/wilderness/wilderness1.png', '/assets/wilderness/wilderness3.png'],
+   videoURL:'https://vimeo.com/145181464',
    about:'Inspired by David Hockney:Seven Yorkshire Landscape Videos,2011, I created my own rendition in the Redwood Regional Forest and Muir Woods.'
  }
  // {

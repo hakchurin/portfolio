@@ -23,7 +23,6 @@ export default React.createClass({
         slide: 'slide-in-right',
       });
     }, 500);
-
   },
   showBack(){
     this.setState({slide: 'slide-out-right'});
