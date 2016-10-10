@@ -14,6 +14,7 @@ var info = [
     id:2,
     image:'/assets/snackColor.png',
     projectRoute: 'SnackAttack',
+    shadowBoxImg:['/assets/snackAttack/SAlogin.png', '/assets/snackAttack/SAhome.png', '/assets/snackAttack/SAgame.png', '/assets/snackAttack/SAgameover.png', '/assets/snackAttack/SAhighscore.png', '/assets/snackAttack/SAleader.png'],
     name: 'Snack Attack',
     url:'http://snack-attack.surge.sh/',
     about: 'A computer game created with HTML5 Cnavas and Javascript, where the objective is to catch as much falling food with the frying pan as you can in the time alloted '
@@ -24,17 +25,22 @@ var info = [
     image:'/assets/sohColor.png',
     projectRoute: 'SarahOliverHandbags',
     name: 'Sarah Oliver Handbags',
+    shadowBoxImg:['/assets/soh/sohStory1.png','/assets/soh/sohStory2.png','/assets/soh/sohStory3.png','/assets/soh/sohStory4.png','/assets/soh/sohStory5.png','/assets/soh/sohStory6.png'],
     about:'Sarah Oliver Handbags offers elegant, designer purses, and clutches with a twist: every equisite bag is made by The Purlettes, the unique knitting team comprised of talented senior citizens. Sarah Oliver Handbags wanted to rebrand their image to attract a younger demographic, hoping to expand their market to women of all ages.',
-    film: 'Dorian Cohen &  Daniella Flores'
+    film: 'Dorian Cohen &  Daniella Flores',
+    url:'https://vimeo.com/136872427'
 },
  {
    id:4,
    name:'Save The Bay',
    image:'/assets/stbColor.png',
    projectRoute: 'SaveTheBay',
+   shadowBoxImg:['/assets/stb/stb1.png','/assets/stb/stb2.png','/assets/stb/stb5.png','/assets/stb/stb3.png','/assets/stb/stb4.png','/assets/stb/stb6.png','/assets/stb/stb8.png'],
    quote:'"Save The Bay is a stimulating non-profit designated to keep the San Francisco Bay healthy, ensuing hygenic communities for the residents and general public in the surrounding areas."',
    about:' A Creative Direction class at Expression College,the main focus this term was to create a campaign-based project to help a non-profit organization. Unanimously deciding to represent a coastal cleanup, we chose Save The Bay and will be practicing all aspects of the creative process such as developing a creative brief, concept strategy, concept pitch, and client communication. We created a general 60-second promotional video with another stylized graphical element (i.e. poster,brochure, flyer). With this promotional campaign we hoped to emphasize the focus to prevent trash from flowing from city streets into storm drains and out into our local waterways.',
-   graphic:' Anh Le, James Amison, Jarron Delmendo Cervantes, and Adrian Carandang.'
+   graphic:' Anh Le, James Amison, Jarron Delmendo Cervantes, and Adrian Carandang.',
+   url:'https://vimeo.com/145189336',
+   videoURL: 'https://vimeo.com/151702926',
  },
  {
    id:5,
@@ -47,7 +53,9 @@ var info = [
    id:6,
    name:'Clockwork',
    image:'/assets/clockworkColor.png',
-   about:'A 3D model of a pocketwatch made in Cinema 4D.'
+   shadowBoxImg:['https://vimeo.com/149682799'],
+   about:'A 3D model of a pocketwatch made in Cinema 4D.',
+   url:'https://vimeo.com/149682799'
  },
  {
    id:7,

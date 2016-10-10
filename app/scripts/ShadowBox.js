@@ -49,7 +49,6 @@ export default React.createClass({
   componentDidMount(){
     this.setState({currentImg:0});
   },
-
   render() {
     let shadowBtns = this.state.images.map((img,i)=>{
       let shadowLi = (<li className="shadowLiBtn" key={i} value={i} onClick={this.skipToImg}></li>);

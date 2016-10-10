@@ -1,0 +1,45 @@
+.modalContainer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(#000, .5);
+}
+
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 65%;
+  width: 90%;
+  background-color: #FFF;
+
+  h2 {
+    margin: 0;
+    height: 3rem;
+  }
+}
+
+.modalBtnContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 100%;
+  height: 2rem;
+  padding: 5px 5px 0 0px;
+  font-size: 1rem;
+  color: $background;
+}
+
+.closeBtn {
+  background: none;
+  outline: none;
+  border: none;
+  &:hover {
+    cursor: pointer;
+  }
+}

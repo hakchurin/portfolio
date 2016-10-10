@@ -1,12 +1,9 @@
-
-
-
 figure.shadowBoxImg {
-    height: 500px;
-    width: 800px;
+  height: 430px;
+    width: 600px;
     background-size: cover;
-    background-repeat: no-repeat;
-    // margin:0 auto;
+    background-repeat: round;
+
 }
 
 p.projectPageInfo {
@@ -26,6 +23,7 @@ section.projectContentContainer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+        margin-bottom: 5rem;
 }
 .shadowBtn {
     font-size: 5rem;
@@ -49,6 +47,9 @@ section.projectContentContainer {
   justify-content: space-around;
   align-items: center;
   width: 100%;
+  &:hover{
+    cursor:pointer;
+  }
 }
 
 .shadowLiBtn {
@@ -57,40 +58,42 @@ section.projectContentContainer {
   width: 20px;
   background-color: $secondary;
   border-radius: 50%;
+  &:hover{
+    cursor:pointer;
+  }
 }
-
-
-
 
 h2.projectName{
   color:$font-color;
   font-size: 40px;
-margin: 0;
+  margin: 0;
 }
-
 
 .projectInfoContainer {
   a{
     color:$font-color;
       &:hover{
         color:$primary;
+        cursor: pointer;
       }
   }
 }
 
-
 .linkContainer{
+  display: flex;
+  align-items: center;
   justify-content: space-between;
-width: 8rem;
-align-items: center;
-display: flex;
-  a {
-    font-size: 3rem;
+  width: 8rem;
+}
 
+.projectLink, .videoBtn {
+  text-decoration: none;
+  font-size: 3rem;
+  &:hover{
+    cursor:pointer;
   }
 }
 
-
 i.fa.fa-github-square.github{
-      font-size: 53px;
+  // font-size: 53px;
 }
