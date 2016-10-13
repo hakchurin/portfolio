@@ -94,13 +94,28 @@ var info = [
    shadowBoxImg:['/assets/wilderness/wilderness1.png', '/assets/wilderness/wilderness3.png'],
    videoURL:'https://vimeo.com/145181464',
    about:'Inspired by David Hockney:Seven Yorkshire Landscape Videos,2011, I created my own rendition in the Redwood Regional Forest and Muir Woods.'
+ },
+ {
+   id:11,
+   name:'Jeopardy',
+   image:'/assets/jeopardy/jep.png',
+   projectRoute:'Jeopardy',
+   url:'https://jeopardy.surge.sh',
+   git:`https://github.com/hakchurin`,
+   shadowBoxImg:['/assets/jeopardy/jeopardy.png'],
+   about:'My Jeopardy game renders random categories and questions from the actual Jeopardy games clues and questions.'
+
+ },
+ {
+   id:12,
+   name:'Salty Beaver Taproom',
+   image:'/assets/menu/salty.png',
+   projectRoute:'Salty Beaver Taproom',
+   url:'http://saltybeavertaproom.surge.sh/',
+   git:`https://github.com/hakchurin`,
+   shadowBoxImg:['/assets/menu/salty1.png', '/assets/menu/salty2.png'],
+   about:'Made with JS, jQuery and Backbone, this is an online ordering service allowing you to choose items from the menu that you wish to enjoy.'
  }
- // {
- //   id:11,
- //   name:'haley',
- //   url:'/assets/flatironColor.png',
- //   about:'Greetings! My name is Haley Akchurin, I am a Front-End Engineer and Motion Graphic Designer. Born and Raised in the San Francisco Bay Area, I came into this world a fine artist and grew into a mature Motiongrapher with a BS degree in Motion Graphic Design. I enjoy 3D modeling, title sequences, and color. My hopes are to become a colossal designer, creating an atistic empire that can be translated, understood, and appreciated amongst a wide variety of people. When I am not behind a computer, you can find me in a museum, at the gym, or on the couch catching up on reality television'
- // }
 
 
 ]

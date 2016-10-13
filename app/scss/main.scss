@@ -6,32 +6,58 @@
 
 @import 'animations.scss';
 
+
+div#container{
+}
+
+div#opacity{
+  opacity:.5;
+}
+
 body {
     margin: 0;
     padding: 0;
     line-height: 1.5;
     font-family: sans-serif;
     background-color: $background;
+    background-image: url("assets/background2.png");
+    background-size: cover;
+
 }
 .home-content-container {
     display: flex;
+    height: 580px;
+    background-color: #fff;
+    width: 1120px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom:3rem;
+    background-color: rgba(255,255,255,0.5);
+    box-shadow: -8px 8px 5px #888888;
+
 }
+
+.bio{
+  margin-top: 2rem;
+margin-left: 2rem;
+}
+
+.home-side-container{
+  margin-left: 0rem;
+margin-top: 2rem;
+}
+
 p.p-about-me {
-    width: 98%;
+    width: 95%;
     text-align: justify;
     margin-left: 0.5rem;
 }
-.home-content-container {
-    margin: 0 auto;
-    width: 85%;
-    margin-top: 110px;
-}
+
 li {
     list-style-type: none;
 }
 ul.ul-links {
     display: flex;
-    // margin-top: 120px;
 }
 img.logo {
     width: 13%;
@@ -39,27 +65,36 @@ img.logo {
     font-weight: 700;
 }
 .logo-info {
-    display: flex;
-    margin-left: 2rem;
-    margin-top: 1rem;
+  display: flex;
+margin-left: 2rem;
+margin-top: 1rem;
+width: 87%;
+margin: 0 auto;
+background-color: rgba(255, 255, 255, 0.7);
+box-shadow: -8px 8px 5px #888888;
 }
 h1 {
-    margin-top: 2.5rem;
-}
+  margin-top: 2.5rem;
+  font-size: 1.7rem;}
 
 div#nav-component {
-    width: 68%;
+  width: 69%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 .project-img {
-    margin: 0 auto;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    width: 75%;
-    margin-top: 140px;
+  margin: 0 auto;
+padding: 0;
+display: flex;
+flex-wrap: wrap;
+width: 75%;
+margin-top: 90px;
+align-items: center;
+justify-content: center;
 }
 .project-img img:hover {
     opacity: 1;

@@ -33,6 +33,7 @@ export default React.createClass({
         style={{
           transition: 'height 500ms',
           height: '100%',
+          width: '100%',
           filter:'grayscale(0%)',
         }}>
         {this.props.project.name}</h2>);
@@ -42,10 +43,7 @@ export default React.createClass({
     }
     return (
       <li className="project-li" onMouseEnter={this.showImg} onMouseLeave={this.hideImg} onClick={this.goToProject}>
-        <div
-          className="squareImg"
-          value="Flatiron"
-          ref='project'
+        <div className="squareImg" value="Flatiron" ref='project'
           style={{
             backgroundImage: `url(${this.props.project.image})`,
             filter: `${grayscale}`,
