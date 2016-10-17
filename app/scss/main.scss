@@ -3,9 +3,9 @@
 @import 'nav.scss';
 @import 'projectPage.scss';
 @import 'videoModal.scss';
-
 @import 'animations.scss';
-
+@import 'contact.scss';
+@import 'resume.scss';
 
 div#container{
 }
@@ -28,7 +28,7 @@ body {
     display: flex;
     height: 580px;
     background-color: #fff;
-    width: 1120px;
+    width: 87%;
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom:3rem;
@@ -39,7 +39,7 @@ body {
 
 .bio{
   margin-top: 2rem;
-margin-left: 2rem;
+margin-left: .5rem;
 }
 
 .home-side-container{
@@ -59,23 +59,9 @@ li {
 ul.ul-links {
     display: flex;
 }
-img.logo {
-    width: 13%;
-    height: 10%;
-    font-weight: 700;
-}
-.logo-info {
-  display: flex;
-margin-left: 2rem;
-margin-top: 1rem;
-width: 87%;
-margin: 0 auto;
-background-color: rgba(255, 255, 255, 0.7);
-box-shadow: -8px 8px 5px #888888;
-}
-h1 {
-  margin-top: 2.5rem;
-  font-size: 1.7rem;}
+
+
+
 
 div#nav-component {
   width: 69%;

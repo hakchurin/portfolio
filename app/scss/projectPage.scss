@@ -94,13 +94,14 @@ h2.projectName{
   font-size: 3rem;
   &:hover{
     cursor:pointer;
+    color:$tertiary;
   }
 }
 
 ul.project-img{
   display: flex;
 height: 582px;
-width: 1120px;
+width: 87%;
 margin: 0 auto;
 margin-top: 40px;
 margin-bottom: 3rem;
@@ -114,4 +115,8 @@ li.project-li{
   height: 194px;
 list-style-type: none;
 overflow: hidden;
+}
+
+i.projectLink.fa.fa-github-square.github{
+  font-size:3.3rem;
 }

@@ -25,7 +25,7 @@ var info = [
     image:'/assets/sohColor.png',
     projectRoute: 'SarahOliverHandbags',
     name: 'Sarah Oliver Handbags',
-    shadowBoxImg:['/assets/soh/sohStory1.png','/assets/soh/sohStory2.png','/assets/soh/sohStory3.png','/assets/soh/sohStory4.png','/assets/soh/sohStory5.png','/assets/soh/sohStory6.png'],
+    shadowBoxImg:['/assets/soh/sohStory1.png','/assets/soh/sohStory2.png','/assets/soh/sohStory3.png','/assets/soh/sohStory4.png','/assets/soh/sohStory6.png'],
     about:'Sarah Oliver Handbags offers elegant, designer purses, and clutches with a twist: every equisite bag is made by The Purlettes, the unique knitting team comprised of talented senior citizens. Sarah Oliver Handbags wanted to rebrand their image to attract a younger demographic, hoping to expand their market to women of all ages.',
     film: 'Dorian Cohen &  Daniella Flores',
     url:'https://vimeo.com/136872427'
@@ -47,7 +47,9 @@ var info = [
    name: 'American Turko-Tatar Association San Francisco Bay Area',
    image:'/assets/attaColor.png',
    projectRoute: 'ATTA',
-   about: 'The Tatars were a very small minority among the many nationalities in CAlifornia. In order to preserve the traditions of their forefathers, a few induviduals decided to organize the Tatar community declaring that the most important goals were the preservation of their cultural, ethnic, and religious interests of the Tatar community. After being distinguished in the San Francisco Bay Area for over 50 years, the ATTA has decided to rebrand their image and logo to represent a more Americanized organization.'
+   shadowBoxImg:['/assets/atta/atta1.png', '/assets/atta/atta2.png', '/assets/atta/atta3.png', '/assets/atta/atta.png'],
+   about: 'The Tatars were a very small minority among the many nationalities in CAlifornia. In order to preserve the traditions of their forefathers, a few induviduals decided to organize the Tatar community declaring that the most important goals were the preservation of their cultural, ethnic, and religious interests of the Tatar community. After being distinguished in the San Francisco Bay Area for over 50 years, the ATTA has decided to rebrand their image and logo to represent a more Americanized organization.',
+   url:'http://www.attasf.org/'
  },
  {
    id:6,
