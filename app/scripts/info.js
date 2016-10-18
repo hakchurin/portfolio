@@ -7,7 +7,7 @@ var info = [
       url:'http://bring-the-band.surge.sh/',
       name:' Bring The Band',
       git:`https://github.com/hakchurin`,
-      about:  'Bring the band allows users to vote for musicians they want to see at the venue. The venue hopes to gain a following, and boost their patron engagement by tracking popular bands, and trends in their market share',
+      about:  'Created with React.js Bring the Band allows users to vote for musicians they want to see at the venue. The venue hopes to gain a following, and boost their patron engagement by tracking popular bands, and trends in their market share',
     },
 
     {
@@ -37,7 +37,7 @@ var info = [
    projectRoute: 'SaveTheBay',
    shadowBoxImg:['/assets/stb/stb1.png','/assets/stb/stb2.png','/assets/stb/stb5.png','/assets/stb/stb3.png','/assets/stb/stb4.png','/assets/stb/stb6.png','/assets/stb/stb8.png'],
    quote:'"Save The Bay is a stimulating non-profit designated to keep the San Francisco Bay healthy, ensuing hygenic communities for the residents and general public in the surrounding areas."',
-   about:' A Creative Direction class at Expression College,the main focus this term was to create a campaign-based project to help a non-profit organization. Unanimously deciding to represent a coastal cleanup, we chose Save The Bay and will be practicing all aspects of the creative process such as developing a creative brief, concept strategy, concept pitch, and client communication. We created a general 60-second promotional video with another stylized graphical element (i.e. poster,brochure, flyer). With this promotional campaign we hoped to emphasize the focus to prevent trash from flowing from city streets into storm drains and out into our local waterways.',
+   about:' A Creative Direction class at Expression College,the main focus this term was to create a campaign-based project to help a non-profit organization. Unanimously deciding to represent a coastal cleanup, we chose Save The Bay and will be practicing all aspects of the creative process such as developing a creative brief, concept strategy, concept pitch, and client communication. We created a general 60-second promotional video with another stylized graphical element (i.e. poster,brochure, flyer). With this promotional campaign we hope to emphasize the focus to prevent trash from flowing from city streets into storm drains and out into our local waterways.',
    graphic:' Anh Le, James Amison, Jarron Delmendo Cervantes, and Adrian Carandang.',
    url:'https://vimeo.com/145189336',
    videoURL: 'https://vimeo.com/151702926',
@@ -95,7 +95,7 @@ var info = [
    image:'/assets/wildernessColor.png',
    shadowBoxImg:['/assets/wilderness/wilderness1.png', '/assets/wilderness/wilderness3.png'],
    videoURL:'https://vimeo.com/145181464',
-   about:'Inspired by David Hockney:Seven Yorkshire Landscape Videos,2011, I created my own rendition in the Redwood Regional Forest and Muir Woods.'
+   about:'Inspired by David Hockney:Seven Yorkshire Landscape Videos, 2011, I created my own rendition in the Redwood Regional Forest and Muir Woods in California.'
  },
  {
    id:11,
@@ -105,7 +105,7 @@ var info = [
    url:'https://jeopardy.surge.sh',
    git:`https://github.com/hakchurin`,
    shadowBoxImg:['/assets/jeopardy/jeopardy.png'],
-   about:'My Jeopardy game renders random categories and questions from the actual Jeopardy games clues and questions.'
+   about:'Made with React.js, my Jeopardy board renders random categories and questions from the actual Jeopardy API game clues and questions.'
 
  },
  {
@@ -116,7 +116,7 @@ var info = [
    url:'http://saltybeavertaproom.surge.sh/',
    git:`https://github.com/hakchurin`,
    shadowBoxImg:['/assets/menu/salty1.png', '/assets/menu/salty2.png'],
-   about:'Made with JS, jQuery and Backbone, this is an online ordering service allowing you to choose items from the menu that you wish to enjoy.'
+   about:'Made with Javescript, jQuery and Backbone, this is an online ordering service allowing you to choose items from the menu that you wish to enjoy.'
  }
 
 

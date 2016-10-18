@@ -1,9 +1,16 @@
-figure.shadowBoxImg {
+.shadowBoxImgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 430px;
-    width: 600px;
-    background-size: cover;
-    background-repeat: round;
+  width: 600px;
+}
 
+figure.shadowBoxImg {
+    height: 100%;
+    width: 54%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 p.projectPageInfo {
@@ -68,8 +75,9 @@ padding: 2% 0;
 
 h2.projectName{
   color:$font-color;
-  font-size: 40px;
+  font-size: 33px;
   margin: 0;
+  margin-top: .5rem;
 }
 
 .projectInfoContainer {

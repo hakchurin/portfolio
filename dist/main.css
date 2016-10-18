@@ -29,11 +29,18 @@ img.logo {
   background-color: rgba(255, 255, 255, 0.7);
   box-shadow: -8px 8px 5px #888888; }
 
-figure.shadowBoxImg {
+.shadowBoxImgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 430px;
-  width: 600px;
-  background-size: cover;
-  background-repeat: round; }
+  width: 600px; }
+
+figure.shadowBoxImg {
+  height: 100%;
+  width: 54%;
+  background-size: contain;
+  background-repeat: no-repeat; }
 
 p.projectPageInfo {
   width: 400px;
@@ -88,8 +95,9 @@ section.projectContentContainer {
 
 h2.projectName {
   color: #262525;
-  font-size: 40px;
-  margin: 0; }
+  font-size: 33px;
+  margin: 0;
+  margin-top: .5rem; }
 
 .projectInfoContainer a {
   color: #262525; }
@@ -203,56 +211,71 @@ i.projectLink.fa.fa-github-square.github {
   to {
     transform: translateX(0%); } }
 form {
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  height: 480px;
-  width: 320px;
-  margin-top: 40px;
-  margin-bottom: 3rem;
+  height: 26rem;
+  margin-bottom: 1rem;
   justify-content: space-around;
-  transform: translateY(100px); }
+  /* margin-top: 2rem; */ }
 
 .contactStyle {
   background-color: rgba(255, 255, 255, 0.5);
   box-shadow: -8px 8px 5px #888888;
-  height: 582px;
   width: 87%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem; }
 
 input.submit {
   text-decoration: none;
   background-color: white;
   border-top: thick hidden #ff0000;
   border-right: 2px hidden black;
-  border-left: 2px solid black;
+  border-left: 2px solid #9D8CA1;
   width: 8rem;
   height: 2rem;
-  border-bottom: 3px solid black;
-  margin: 0 auto; }
+  border-bottom: 3px solid #9D8CA1;
+  margin: 0 auto;
+  transform: translateY(8px); }
 
 input.text::-webkit-input-placeholder {
   text-align: left;
   margin-top: 5rem; }
 
-input.message {
-  height: 15rem;
+textarea.message {
+  height: 13rem;
   width: 25rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+  border: 1px solid #ABABAB; }
 
 input.message::-webkit-input-placeholder {
+  color: #F3C969;
   margin-bottom: 3rem; }
 
 input.name {
-  height: 3rem;
+  height: 2rem;
   width: 25rem;
   margin: 0 auto;
-  margin-top: 5rem; }
+  margin-top: 1.5rem; }
 
 input.email {
-  height: 3rem;
+  height: 2rem;
   width: 25rem;
   margin: 0 auto; }
+
+input.subject {
+  height: 2rem;
+  width: 25rem;
+  margin: 0 auto; }
+
+h2.emailHead {
+  text-align: center;
+  margin: 0 auto;
+  transform: translateY(20px);
+  font-size: 3rem; }
 
 .resumeStyle {
   width: 87%;
@@ -262,7 +285,7 @@ input.email {
   margin-top: 40px;
   height: 52rem; }
 
-img {
+img.resumeImg {
   margin: 0 auto;
   display: flex;
   transform: translateY(20px); }
@@ -291,23 +314,34 @@ body {
   box-shadow: -8px 8px 5px #888888; }
 
 .bio {
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-left: .5rem; }
 
 .home-side-container {
   margin-left: 0rem;
-  margin-top: 2rem; }
+  margin-top: 1rem; }
 
 p.p-about-me {
   width: 95%;
   text-align: justify;
-  margin-left: 0.5rem; }
+  margin-left: 0.5rem;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 16px;
+  margin: 7px auto; }
 
 li {
   list-style-type: none; }
 
 ul.ul-links {
   display: flex; }
+
+ul.ul-title {
+  margin: 0 auto; }
+
+li.skills {
+  text-align: justify;
+  width: 23rem;
+  font-size: .8rem; }
 
 div#nav-component {
   width: 69%;
@@ -369,5 +403,12 @@ div#nav-component {
   color: #FFD94A;
   text-align: center;
   cursor: pointer; }
+
+li.homeName {
+  font-size: 1.5rem;
+  font-weight: 600; }
+
+li.title {
+  font-size: 1.1rem; }
 
 /*# sourceMappingURL=main.css.map */

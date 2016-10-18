@@ -13,8 +13,9 @@ export default React.createClass({
         <div className="bio">
           <img src="/assets/haley.jpg" className="haley" />
           <ul className="ul-title">
-            <li>Haley Akchurin</li>
+            <li className="homeName">Haley Akchurin</li>
             <li className="title">Motion Graphic Designer & Front-End Engineer</li>
+            <li className="skills"> Illustrator, Photoshop, InDesign, After Effects, Muse, Premiere Pro, font Lab, Cinema 4D, HTML, CSS/SASS, Javascript, jQuery, React, Backbone, Git, Ajax.  </li>
           </ul>
         </div>
         <div className="home-side-container">

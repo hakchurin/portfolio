@@ -15,7 +15,6 @@ import contact from './contact';
       <Route path = "/home" component = {home}/>
       <Route path = "/nav" component = {nav}/>
       <Route path = "/contact" component = {contact}/>
-
       <Route path = "/projects" component = {projects}/>
       <Route path = "/projects/:projectpage" component = {projectPage}/>
       <Route path = "/resume" component = {resume}/>

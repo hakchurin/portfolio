@@ -1,5 +1,4 @@
 @import 'variables.scss';
-@import 'home.scss';
 @import 'nav.scss';
 @import 'projectPage.scss';
 @import 'videoModal.scss';
@@ -38,19 +37,22 @@ body {
 }
 
 .bio{
-  margin-top: 2rem;
+  margin-top: 1rem;
 margin-left: .5rem;
 }
 
 .home-side-container{
   margin-left: 0rem;
-margin-top: 2rem;
+margin-top: 1rem;
 }
 
 p.p-about-me {
     width: 95%;
     text-align: justify;
     margin-left: 0.5rem;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 16px;
+margin: 7px auto;
 }
 
 li {
@@ -58,6 +60,17 @@ li {
 }
 ul.ul-links {
     display: flex;
+}
+
+ul.ul-title{
+      margin: 0 auto;
+}
+
+li.skills{
+  text-align: justify;
+width: 23rem;
+font-size: .8rem;
+
 }
 
 
@@ -124,3 +137,15 @@ justify-content: center;
     text-align: center;
     cursor: pointer;
 }
+
+
+
+
+li.homeName{
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  li.title{
+    font-size:1.1rem;
+  }
