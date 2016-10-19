@@ -40,7 +40,7 @@ var info = [
    about:' A Creative Direction class at Expression College,the main focus this term was to create a campaign-based project to help a non-profit organization. Unanimously deciding to represent a coastal cleanup, we chose Save The Bay and will be practicing all aspects of the creative process such as developing a creative brief, concept strategy, concept pitch, and client communication. We created a general 60-second promotional video with another stylized graphical element (i.e. poster,brochure, flyer). With this promotional campaign we hope to emphasize the focus to prevent trash from flowing from city streets into storm drains and out into our local waterways.',
    graphic:' Anh Le, James Amison, Jarron Delmendo Cervantes, and Adrian Carandang.',
    url:'https://vimeo.com/145189336',
-   videoURL: 'https://vimeo.com/151702926',
+   videoURL: 'https://vimeo.com/145189336',
  },
  {
    id:5,

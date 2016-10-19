@@ -239,7 +239,8 @@ input.submit {
   height: 2rem;
   border-bottom: 3px solid #9D8CA1;
   margin: 0 auto;
-  transform: translateY(8px); }
+  transform: translateY(8px);
+  cursor: pointer; }
 
 input.text::-webkit-input-placeholder {
   text-align: left;
@@ -288,7 +289,8 @@ h2.emailHead {
 img.resumeImg {
   margin: 0 auto;
   display: flex;
-  transform: translateY(20px); }
+  transform: translateY(20px);
+  cursor: pointer; }
 
 div#opacity {
   opacity: .5; }
