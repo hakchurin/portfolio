@@ -38,17 +38,18 @@ render() {
   if (this.state.showModal) {
     videoModal = (<VideoModal project={project} hideModal={this.hideModal}/>);
   }
+  console.log(this.state.project);
   return (
     <div>
       <Nav />
       <section className="projectContentContainer">
         <ShadowBox images={project.shadowBoxImg}/>
-        <div className="projectInfoContainer">
+        <div className="projectInfoContai2ner">
         <h2 className="projectName">{project.name}</h2>
           <p className="projectPageInfo">{project.about}</p>
           <div className="linkContainer">
             {videoBtn}
-            <a href={this.state.project.git} className="github"><i className="projectLink fa fa-github-square github" aria-hidden="true"></i></a>
+            <a href={project.git} className="github"><i className="projectLink fa fa-github-square github" aria-hidden="true"></i></a>
           </div>
         </div>
       </section>
