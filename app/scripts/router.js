@@ -10,7 +10,7 @@ import contact from './contact';
 
 
   const router = (
-      <Router history = {browserHistory}>
+    <Router history = {browserHistory}>
       <Route path = "/" component = {home}/>
       <Route path = "/home" component = {home}/>
       <Route path = "/nav" component = {nav}/>
@@ -18,8 +18,6 @@ import contact from './contact';
       <Route path = "/projects" component = {projects}/>
       <Route path = "/projects/:projectpage" component = {projectPage}/>
       <Route path = "/resume" component = {resume}/>
-
-
     </Router>
 
   )

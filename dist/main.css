@@ -37,10 +37,15 @@ img.logo {
   width: 600px; }
 
 figure.shadowBoxImg {
-  height: 100%;
-  width: 54%;
-  background-size: contain;
+  height: 75%;
+  width: 100%;
+  background-size: cover;
   background-repeat: no-repeat; }
+
+figure.img-atta {
+  background-size: contain;
+  width: 50%;
+  height: 24rem; }
 
 p.projectPageInfo {
   width: 400px;

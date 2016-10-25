@@ -20,7 +20,7 @@ export default React.createClass({
         message: this.refs.message.value
       },
       success: (r) => {
-        console.log(r);
+        // console.log(r);
       },
       error:(r)=> {
         console.log('error', r);

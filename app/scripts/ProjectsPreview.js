@@ -19,9 +19,8 @@ export default React.createClass({
   hideImg() {
     this.setState({hover: false});
   },
-  goToProject: function(){
+  goToProject() {
     browserHistory.push(`/projects/${this.props.project.projectRoute}`);
-
   },
   render() {
     let hoverTitle;

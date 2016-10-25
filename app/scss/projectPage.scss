@@ -7,41 +7,47 @@
 }
 
 figure.shadowBoxImg {
-    height: 100%;
-    width: 54%;
-    background-size: contain;
-    background-repeat: no-repeat;
+  height: 75%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+figure.img-atta {
+  background-size: contain;
+  width: 50%;
+  height: 24rem;
 }
 
 p.projectPageInfo {
     width: 400px;
     color:$font-color;
-
 }
+
 section.projectContentContainer {
   display: flex;
-height: 582px;
-width: 1120px;
-margin: 0 auto;
-margin-top: 40px;
-margin-bottom: 3rem;
-background-color: rgba(255,255,255,0.5);
-box-shadow: -8px 8px 5px #888888;
-padding: 2% 0;
+  height: 582px;
+  width: 1120px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 3rem;
+  background-color: rgba(255,255,255,0.5);
+  box-shadow: -8px 8px 5px #888888;
+  padding: 2% 0;
 }
 .shadowBoxComp {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-        margin-bottom: 5rem;
+    margin-bottom: 5rem;
 }
 .shadowBtn {
-    font-size: 5rem;
-    color:$tertiary;
-      &:hover{
-        cursor:pointer;
-      }
+  font-size: 5rem;
+  color:$tertiary;
+    &:hover{
+      cursor:pointer;
+    }
 }
 
 .buttonContainer{
@@ -83,10 +89,11 @@ h2.projectName{
 .projectInfoContainer {
   a{
     color:$font-color;
-      &:hover{
-        color:$tertiary;
-        cursor: pointer;
-      }
+
+    &:hover{
+      color:$tertiary;
+      cursor: pointer;
+    }
   }
 }
 
@@ -108,21 +115,21 @@ h2.projectName{
 
 ul.project-img{
   display: flex;
-height: 582px;
-width: 87%;
-margin: 0 auto;
-margin-top: 40px;
-margin-bottom: 3rem;
-background-color: rgba(255,255,255,0.5);
-box-shadow: -8px 8px 5px #888888;
-    padding: 2% 0;
+  height: 582px;
+  width: 87%;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 3rem;
+  background-color: rgba(255,255,255,0.5);
+  box-shadow: -8px 8px 5px #888888;
+  padding: 2% 0;
 }
 
 li.project-li{
   width: 236px;
   height: 194px;
-list-style-type: none;
-overflow: hidden;
+  list-style-type: none;
+  overflow: hidden;
 }
 
 i.projectLink.fa.fa-github-square.github{
