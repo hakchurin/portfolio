@@ -15,7 +15,6 @@ var info = [
     shadowBoxImg:['/assets/snackAttack/SAlogin.png', '/assets/snackAttack/SAhome.png', '/assets/snackAttack/SAgame.png', '/assets/snackAttack/SAgameover.png', '/assets/snackAttack/SAhighscore.png', '/assets/snackAttack/SAleader.png'],
     name: 'Snack Attack',
     git:`https://github.com/hakchurin/Snack-Attack`,
-
     url:'http://snack-attack.surge.sh/',
     about: 'A computer game created with HTML5 Cnavas and Javascript, where the objective is to catch as much falling food with the frying pan as you can in the time alloted '
   }, {
@@ -26,7 +25,9 @@ var info = [
     shadowBoxImg:['/assets/soh/sohStory1.png','/assets/soh/sohStory2.png','/assets/soh/sohStory3.png','/assets/soh/sohStory4.png','/assets/soh/sohStory6.png'],
     about:'Sarah Oliver Handbags offers elegant, designer purses, and clutches with a twist: every equisite bag is made by The Purlettes, the unique knitting team comprised of talented senior citizens. Sarah Oliver Handbags wanted to rebrand their image to attract a younger demographic, hoping to expand their market to women of all ages.',
     film: 'Dorian Cohen &  Daniella Flores',
-    url:'https://vimeo.com/136872427'
+    url:'https://vimeo.com/136872427',
+    videoURL:'https://vimeo.com/136872427'
+
   }, {
    id:4,
    name:'Save The Bay',

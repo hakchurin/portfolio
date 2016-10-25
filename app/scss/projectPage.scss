@@ -95,12 +95,13 @@ section.projectContentContainer {
 
 h2.projectName{
   color:$font-color;
-  font-size: 33px;
+  font-size: 32px;
   margin: 0;
-  margin-top: .5rem;
+  // margin-top: 3.8rem;
 }
 
 .projectInfoContainer {
+  margin-top: 3rem;
   a{
     color:$font-color;
 

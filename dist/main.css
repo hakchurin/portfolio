@@ -110,15 +110,16 @@ section.projectContentContainer {
 
 h2.projectName {
   color: #262525;
-  font-size: 33px;
-  margin: 0;
-  margin-top: .5rem; }
+  font-size: 32px;
+  margin: 0; }
 
-.projectInfoContainer a {
-  color: #262525; }
-  .projectInfoContainer a:hover {
-    color: #9D8CA1;
-    cursor: pointer; }
+.projectInfoContainer {
+  margin-top: 3rem; }
+  .projectInfoContainer a {
+    color: #262525; }
+    .projectInfoContainer a:hover {
+      color: #9D8CA1;
+      cursor: pointer; }
 
 .linkContainer {
   display: flex;
@@ -321,7 +322,7 @@ body {
 
 .home-content-container {
   display: flex;
-  height: 580px;
+  height: 603px;
   background-color: #fff;
   width: 87%;
   margin: 0 auto;
@@ -353,7 +354,8 @@ ul.ul-links {
   display: flex; }
 
 ul.ul-title {
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 0; }
 
 li.skills {
   text-align: justify;
