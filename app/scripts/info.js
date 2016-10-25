@@ -6,7 +6,7 @@ var info = [
     projectRoute: 'BringTheBand',
     url:'http://bring-the-band.surge.sh/',
     name:' Bring The Band',
-    git:`https://github.com/hakchurin`,
+    git:`https://github.com/hakchurin/Bring-the-Band`,
     about:  'Created with React.js Bring the Band allows users to vote for musicians they want to see at the venue. The venue hopes to gain a following, and boost their patron engagement by tracking popular bands, and trends in their market share',
   }, {
     id:2,
@@ -14,6 +14,8 @@ var info = [
     projectRoute: 'SnackAttack',
     shadowBoxImg:['/assets/snackAttack/SAlogin.png', '/assets/snackAttack/SAhome.png', '/assets/snackAttack/SAgame.png', '/assets/snackAttack/SAgameover.png', '/assets/snackAttack/SAhighscore.png', '/assets/snackAttack/SAleader.png'],
     name: 'Snack Attack',
+    git:`https://github.com/hakchurin/Snack-Attack`,
+
     url:'http://snack-attack.surge.sh/',
     about: 'A computer game created with HTML5 Cnavas and Javascript, where the objective is to catch as much falling food with the frying pan as you can in the time alloted '
   }, {
@@ -90,8 +92,8 @@ var info = [
    name:'Jeopardy',
    image:'/assets/jeopardy/jep.png',
    projectRoute:'Jeopardy',
-   url:'https://jeopardy.surge.sh',
-   git:`https://github.com/hakchurin`,
+   url:'http://jeopardy-game.surge.sh/',
+   git:`https://github.com/hakchurin/Jeopardy`,
    shadowBoxImg:['/assets/jeopardy/jeopardy.png'],
    about:'Made with React.js, my Jeopardy board renders random categories and questions from the actual Jeopardy API game clues and questions.',
  }, {
@@ -100,7 +102,7 @@ var info = [
    image:'/assets/menu/salty.png',
    projectRoute:'Salty Beaver Taproom',
    url:'http://saltybeavertaproom.surge.sh/',
-   git:`https://github.com/hakchurin`,
+   git:`https://github.com/hakchurin/Salty-Beaver-Taproom`,
    shadowBoxImg:['/assets/menu/salty1.png', '/assets/menu/salty2.png'],
    about:'Made with Javescript, jQuery and Backbone, this is an online ordering service allowing you to choose items from the menu that you wish to enjoy.'
  },
