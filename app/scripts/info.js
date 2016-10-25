@@ -2,7 +2,7 @@ var info = [
   {
     id: 1,
     image:'/assets/btbColor.png',
-    shadowBoxImg: ['/assets/btb/login.png','/assets/btb/btbBand.png', '/assets/btb/btbLogo.png'],
+    shadowBoxImg: ['/assets/btb/login.png','/assets/btb/btbBand.png', '/assets/btb/btbLogo5.png'],
     projectRoute: 'BringTheBand',
     url:'http://bring-the-band.surge.sh/',
     name:' Bring The Band',
