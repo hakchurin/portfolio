@@ -41,7 +41,7 @@ var info = [
    name: 'American Turko-Tatar Association San Francisco Bay Area',
    image:'/assets/attaColor.png',
    projectRoute: 'ATTA',
-   shadowBoxImg:['/assets/atta/atta1.png', '/assets/atta/atta2.png', '/assets/atta/atta3.png', '/assets/atta/atta.png'],
+   shadowBoxImg:['/assets/atta/atta0.png', '/assets/atta/atta1.png', '/assets/atta/atta2.png', '/assets/atta/atta3.png'],
    about: 'The Tatars were a very small minority among the many nationalities in CAlifornia. In order to preserve the traditions of their forefathers, a few induviduals decided to organize the Tatar community declaring that the most important goals were the preservation of their cultural, ethnic, and religious interests of the Tatar community. After being distinguished in the San Francisco Bay Area for over 50 years, the ATTA has decided to rebrand their image and logo to represent a more Americanized organization.',
    url:'http://www.attasf.org/'
  }, {
