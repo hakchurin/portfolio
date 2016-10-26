@@ -11,7 +11,7 @@ export default React.createClass({
         <Nav />
         <div className="home-content-container">
         <div className="bio">
-          <img src="/assets/haley.jpg" className="haley" />
+          <img src="dist/assets/haley.jpg" className="haley" />
           <ul className="ul-title">
             <li className="homeName">Haley Akchurin</li>
             <li className="title">Motion Graphic Designer & Front-End Developer</li>
