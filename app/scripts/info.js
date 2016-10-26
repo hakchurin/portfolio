@@ -1,7 +1,7 @@
 var info = [
   {
     id: 1,
-    image:'/assets/btbColor.png',
+    image:'spa-scaffold/dist/assets/btbColor.png',
     shadowBoxImg: ['/assets/btb/login.png','/assets/btb/btbBand.png', '/assets/btb/btbLogo5.png'],
     projectRoute: 'BringTheBand',
     url:'http://bring-the-band.surge.sh/',
@@ -10,7 +10,7 @@ var info = [
     about:  'Created with React.js Bring the Band allows users to vote for musicians they want to see at the venue. The venue hopes to gain a following, and boost their patron engagement by tracking popular bands, and trends in their market share',
   }, {
     id:2,
-    image:'/assets/snackColor.png',
+    image:'dist/assets/snackColor.png',
     projectRoute: 'SnackAttack',
     shadowBoxImg:['/assets/snackAttack/SAlogin.png', '/assets/snackAttack/SAhome.png', '/assets/snackAttack/SAgame.png', '/assets/snackAttack/SAgameover.png', '/assets/snackAttack/SAhighscore.png', '/assets/snackAttack/SAleader.png'],
     name: 'Snack Attack',
@@ -19,7 +19,7 @@ var info = [
     about: 'A computer game created with HTML5 Cnavas and Javascript, where the objective is to catch as much falling food with the frying pan as you can in the time alloted '
   }, {
     id:3,
-    image:'/assets/sohColor.png',
+    image:'./assets/sohColor.png',
     projectRoute: 'SarahOliverHandbags',
     name: 'Sarah Oliver Handbags',
     shadowBoxImg:['/assets/soh/sohStory1.png','/assets/soh/sohStory2.png','/assets/soh/sohStory3.png','/assets/soh/sohStory4.png','/assets/soh/sohStory6.png'],
