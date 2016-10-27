@@ -7,7 +7,7 @@ render: function() {
     return (
       <div>
         <div className="logo-info">
-          <img src="/assets/logo.png" className="logo"/>
+          <img src="dist/assets/logo.png" className="logo"/>
           <h1> Haley Akchurin </h1>
           <div id="nav-component">
             <ul className="ul-links">
