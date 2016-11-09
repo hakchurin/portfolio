@@ -17,3 +17,21 @@ display: flex;
 transform: translateY(20px);
     cursor: pointer;
 }
+
+
+
+@media(min-width: 400px){
+  img.resumeImg{
+    width: 90%;
+  }
+  .resumeStyle{
+    height: 28rem;
+  }
+}
+
+
+@media(min-width: 950px){
+  .resumeStyle{
+        height: 63rem;
+  }
+}

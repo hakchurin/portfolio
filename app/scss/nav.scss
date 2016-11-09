@@ -1,32 +1,50 @@
+div#nav-component {
+  width: 69%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
 .ul-links {
   list-style-type: none;
   justify-content: space-around;
+    &:hover{
+      color:$primary;
+
+    }
 }
 
 
 li.li-link{
-  padding-right: 30px;
+  padding: 0px;
   a {
-    color:$background;
     text-decoration: none;
-      &:hover{
-        color:$primary;
-      }
-
+    color: $background;
   }
+
 }
 
+.logoLink {
+  color:$background;
+  text-decoration: none;
+  font-size: 1rem;
 
-h1 {
-  margin-top: 3.3rem;
-  font-size: 1.5rem;
+  h1 {
+    margin-top: 3.3rem;
+    font-size: 1.5rem;
+  }
+    &:hover{
+      color:$primary;
+    }
 }
-
 
 img.logo {
-    width: 13%;
-    height: 70%;
-    font-weight: 700;
+  width: auto;
+  height: 70%;
+  font-weight: 700;
 }
 
 
@@ -40,3 +58,102 @@ img.logo {
   background-color: rgba(255, 255, 255, 0.7);
   box-shadow: -8px 8px 5px #888888;
 }
+
+.logoLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color:black;
+  height:100%;
+}
+
+@media (min-width: 400px) {
+ h1{
+   width: 100%;
+   margin-top: 2rem;
+   font-size: 1.3rem;
+ }
+
+ li.li-link {
+    margin: 0px 9px;
+    padding: 0;
+  }
+
+  .logoLink {
+
+    h1 {
+      margin: 0;
+      font-size: 1rem;
+    }
+      &:hover{
+        color:$primary;
+      }
+  }
+
+  div#nav-component{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  .logo-info {
+      display: flex;
+      flex-direction: column;
+      margin-left: 2rem;
+      margin-top: 1rem;
+      width: 87%;
+      height: 100px;
+      margin: 0 auto;
+      background-color: rgba(255, 255, 255, 0.7);
+      box-shadow: -8px 8px 5px #888888;
+  }
+
+  div#nav-component{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    font-size: .8rem;
+  }
+
+  img.logo{
+    height: 90%;
+  }
+
+  ul.ul-links {
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+}
+
+@media(min-width: 950px){
+  div#nav-component {
+    margin: 0 auto;
+    font-size: 1rem;
+  }
+
+  .logoLink h1 {
+    font-size: 1.3rem;
+  }
+}
+
+// @media(min-width: 1100px){
+//   div#nav-component {
+//     margin: 0 auto;
+//     font-size: 1rem;
+//   }
+//
+//   .logoLink h1 {
+//     font-size: 1.3rem;
+//   }
+// }

@@ -7,8 +7,8 @@ render: function() {
     return (
       <div>
         <div className="logo-info">
-          <img src="/assets/logo.png" className="logo"/>
-          <h1> Haley Akchurin </h1>
+          <Link to="/" className="logoLink"><img src="/assets/logo.png" className="logo"/>
+          <h1> Haley Akchurin </h1></Link>
           <div id="nav-component">
             <ul className="ul-links">
               <li className="li-link"><Link to="/home" id="home">HOME</Link></li>
