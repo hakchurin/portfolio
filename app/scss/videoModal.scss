@@ -44,3 +44,11 @@
     cursor: pointer;
   }
 }
+
+
+
+@media(min-width: 400px){
+  figure.shadowBoxImg{
+    width:50%;
+  }
+}

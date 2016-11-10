@@ -239,7 +239,10 @@ i.projectLink.fa.fa-github-square.github {
 
 @media (min-width: 400px) {
   ul.project-img {
-    height: 100%; } }
+    height: 100%; }
+
+  section.projectContentContainer {
+    width: 87%; } }
 #modalContainer {
   position: fixed;
   top: 0;
@@ -280,6 +283,9 @@ i.projectLink.fa.fa-github-square.github {
   #closeModalBtn:hover {
     cursor: pointer; }
 
+@media (min-width: 400px) {
+  figure.shadowBoxImg {
+    width: 50%; } }
 #slide-out-left {
   animation: slide-out-left 500ms; }
 
