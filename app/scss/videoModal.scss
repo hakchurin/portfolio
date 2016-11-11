@@ -47,8 +47,9 @@
 
 
 
-@media(min-width: 400px){
+@media(min-width: 300px){
   figure.shadowBoxImg{
-    width:50%;
+    width:100%;
+    background-position: center;
   }
 }

@@ -51,7 +51,7 @@ img.logo {
   color: black;
   height: 100%; }
 
-@media (min-width: 400px) {
+@media (min-width: 300px) {
   h1 {
     width: 100%;
     margin-top: 2rem;
@@ -237,12 +237,54 @@ li.project-li {
 i.projectLink.fa.fa-github-square.github {
   font-size: 3.3rem; }
 
-@media (min-width: 400px) {
+@media (min-width: 300px) {
   ul.project-img {
     height: 100%; }
 
   section.projectContentContainer {
-    width: 87%; } }
+    width: 87%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+
+  .shadowBoxComp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+    margin: 0 auto; }
+
+  .shadowBoxImgContainer {
+    display: flex;
+    justify-content: left;
+    height: 17rem;
+    width: 17rem;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center; }
+
+  .shadowBtn {
+    font-size: 3rem; }
+
+  .buttonContainer {
+    justify-content: space-between;
+    display: flex;
+    width: 107%; }
+
+  .projectInfoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; }
+
+  .linkContainer {
+    margin: 1rem 0; }
+
+  p.projectPageInfo {
+    width: 95%; } }
 #modalContainer {
   position: fixed;
   top: 0;
@@ -283,9 +325,10 @@ i.projectLink.fa.fa-github-square.github {
   #closeModalBtn:hover {
     cursor: pointer; }
 
-@media (min-width: 400px) {
+@media (min-width: 300px) {
   figure.shadowBoxImg {
-    width: 50%; } }
+    width: 100%;
+    background-position: center; } }
 #slide-out-left {
   animation: slide-out-left 500ms; }
 
@@ -385,7 +428,7 @@ h2.emailHead {
   transform: translateY(20px);
   font-size: 3rem; }
 
-@media (min-width: 400px) {
+@media (min-width: 300px) {
   input.name {
     width: 20rem; }
 
@@ -411,7 +454,7 @@ img.resumeImg {
   transform: translateY(20px);
   cursor: pointer; }
 
-@media (min-width: 400px) {
+@media (min-width: 300px) {
   img.resumeImg {
     width: 90%; }
 
@@ -532,7 +575,7 @@ li.homeName {
 li.title {
   font-size: 1.1rem; }
 
-@media (min-width: 400px) {
+@media (min-width: 300px) {
   .bio {
     display: flex;
     flex-direction: column;
