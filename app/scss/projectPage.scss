@@ -250,7 +250,7 @@ i.projectLink.fa.fa-github-square.github{
   }
 
   figure.img-atta0 {
-    background-size: contain;
+    background-size: contain !important;
     margin: 0 1rem;
   }
 
@@ -293,12 +293,12 @@ i.projectLink.fa.fa-github-square.github{
     align-items: center;
     justify-content: center;
     height: 430px;
-    width: 600px;
+    width: 100%;
   }
 
   figure.shadowBoxImg {
     height: 75%;
-    width: 100%;
+    width: 85%;
     background-size: cover;
     background-repeat: no-repeat;
   }
