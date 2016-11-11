@@ -15,7 +15,7 @@ export default React.createClass({
           <ul className="ul-title">
             <li className="homeName">Haley Akchurin</li>
             <li className="title">Motion Graphic Designer & Front-End Developer</li>
-            <li className="skills"> Illustrator, Photoshop, InDesign, After Effects, Muse, Premiere Pro, font Lab, Cinema 4D, HTML, CSS/SASS, Javascript, jQuery, React, Backbone, Git, Ajax.  </li>
+            <li className="skills"> Illustrator, Photoshop, InDesign, After Effects, Muse, Premiere Pro, Font Lab, Cinema 4D, HTML, CSS/SASS, Javascript, jQuery, React, Backbone, Git, Ajax.  </li>
           </ul>
         </div>
         <div className="home-side-container">
