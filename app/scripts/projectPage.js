@@ -38,7 +38,6 @@ render() {
   if (this.state.showModal) {
     videoModal = (<VideoModal project={project} hideModal={this.hideModal}/>);
   }
-  console.log(this.state.project);
   return (
     <div>
       <Nav />

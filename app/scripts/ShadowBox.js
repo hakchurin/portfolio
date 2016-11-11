@@ -56,10 +56,8 @@ export default React.createClass({
 
     let className = "shadowBoxImg";
    if (this.state.images[0].indexOf('atta0') !== -1 && (this.state.currentImg === 0)) {
-    console.log('working in first');
     className="shadowBoxImg img-atta0";
   } else if (this.state.images[0].indexOf('atta0') !== -1 ) {
-    console.log('working in second...');
     className="shadowBoxImg img-atta";
   } else if (this.state.images[0].indexOf('sohStory') !== -1){
     className="shadowBoxImg img-sohStory";
