@@ -140,28 +140,17 @@ img.logo {
   div#nav-component {
     margin: 0 auto;
     font-size: 1rem;
-//     width: 100%;
-    // display: flex;
-    // align-items: center;
-    // justify-content: flex-end;
-    // empty-cells: flex-end;
-    // margin-top: 0;
-    // font-weight: bold;
-    // font-size: .8rem;
+
+    ul.ul-links{
+        width: 80%;
+
+    
+    }
   }
+
+
 
   .logoLink h1 {
     font-size: 1.3rem;
   }
 }
-
-// @media(min-width: 1100px){
-//   div#nav-component {
-//     margin: 0 auto;
-//     font-size: 1rem;
-//   }
-//
-//   .logoLink h1 {
-//     font-size: 1.3rem;
-//   }
-// }

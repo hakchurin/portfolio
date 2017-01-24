@@ -6,8 +6,8 @@
   margin: 0 auto;
   background-color: rgba(255,255,255,0.5);
   box-shadow: -8px 8px 5px #888888;
-      margin-top: 40px;
-      height: 52rem;
+  margin-top: 40px;
+  height: 94rem;
 }
 
 
@@ -32,6 +32,17 @@ transform: translateY(20px);
 
 @media(min-width: 950px){
   .resumeStyle{
-        height: 63rem;
+        height: 62.5rem;
+  }
+
+  ul.project-img {
+        width: 87.5%;
+        height:80%;
+    }
+}
+
+@media(min-width: 1441px){
+  .resumeStyle{
+        height: 94rem;
   }
 }

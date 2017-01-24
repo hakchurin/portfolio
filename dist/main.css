@@ -109,6 +109,8 @@ img.logo {
   div#nav-component {
     margin: 0 auto;
     font-size: 1rem; }
+    div#nav-component ul.ul-links {
+      width: 80%; }
 
   .logoLink h1 {
     font-size: 1.3rem; } }
@@ -220,7 +222,7 @@ h2.projectName {
 ul.project-img {
   display: flex;
   height: 582px;
-  width: 87%;
+  width: 75%;
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 3rem;
@@ -375,6 +377,11 @@ i.projectLink.fa.fa-github-square.github {
   p.projectPageInfo {
     width: 400px;
     color: #262525; } }
+@media (min-width: 1440px) {
+  ul.project-img {
+    display: flex;
+    height: 582px;
+    width: 75%; } }
 #modalContainer {
   position: fixed;
   top: 0;
@@ -536,7 +543,7 @@ h2.emailHead {
   background-color: rgba(255, 255, 255, 0.5);
   box-shadow: -8px 8px 5px #888888;
   margin-top: 40px;
-  height: 52rem; }
+  height: 94rem; }
 
 img.resumeImg {
   margin: 0 auto;
@@ -552,7 +559,14 @@ img.resumeImg {
     height: 28rem; } }
 @media (min-width: 950px) {
   .resumeStyle {
-    height: 63rem; } }
+    height: 62.5rem; }
+
+  ul.project-img {
+    width: 87.5%;
+    height: 80%; } }
+@media (min-width: 1441px) {
+  .resumeStyle {
+    height: 94rem; } }
 div#opacity {
   opacity: .5; }
 
