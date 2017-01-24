@@ -130,7 +130,7 @@ h2.projectName{
 ul.project-img{
   display: flex;
   height: 582px;
-  width: 87%;
+  width: 75%;
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 3rem;
@@ -326,5 +326,15 @@ i.projectLink.fa.fa-github-square.github{
   p.projectPageInfo {
       width: 400px;
       color:$font-color;
+  }
+}
+
+
+@media(min-width:1440px) {
+  ul.project-img{
+    display: flex;
+    height: 582px;
+    width: 75%;
+
   }
 }
