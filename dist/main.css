@@ -17,7 +17,7 @@ li.li-link {
   padding: 0px; }
   li.li-link a {
     text-decoration: none;
-    color: #ABABAB; }
+    color: black; }
 
 .logoLink {
   color: #ABABAB;
@@ -27,29 +27,12 @@ li.li-link {
     margin-top: 3.3rem;
     font-size: 1.5rem; }
   .logoLink:hover {
-    color: #F3C969; }
+    color: black; }
 
 img.logo {
   width: auto;
   height: 70%;
   font-weight: 700; }
-
-.logo-info {
-  display: flex;
-  margin-left: 2rem;
-  margin-top: 1rem;
-  width: 87%;
-  height: 120px;
-  margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.7);
-  box-shadow: -8px 8px 5px #888888; }
-
-.logoLink {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: black;
-  height: 100%; }
 
 @media (min-width: 300px) {
   h1 {
@@ -83,9 +66,7 @@ img.logo {
     margin-top: 1rem;
     width: 87%;
     height: 100px;
-    margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.7);
-    box-shadow: -8px 8px 5px #888888; }
+    margin: 0 auto; }
 
   div#nav-component {
     width: 100%;
@@ -118,13 +99,14 @@ img.logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 430px;
-  width: 600px; }
+  height: 45rem;
+  width: 65rem; }
 
 figure.shadowBoxImg {
-  height: 75%;
-  width: 100%;
-  background-size: cover;
+  margin: 0;
+  margin-bottom: 11rem;
+  height: 80%;
+  background-size: contain;
   background-repeat: no-repeat; }
 
 figure.img-atta {
@@ -147,6 +129,7 @@ p.projectPageInfo {
   color: #262525; }
 
 section.projectContentContainer {
+  flex-direction: column;
   display: flex;
   height: 582px;
   width: 1120px;
@@ -156,13 +139,6 @@ section.projectContentContainer {
   background-color: rgba(255, 255, 255, 0.5);
   box-shadow: -8px 8px 5px #888888;
   padding: 2% 0; }
-
-.shadowBoxComp {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 5rem; }
 
 .shadowBtn {
   font-size: 5rem;
@@ -199,6 +175,8 @@ h2.projectName {
   margin: 0; }
 
 .projectInfoContainer {
+  align-items: center;
+  flex-direction: row;
   margin-top: 3rem; }
   .projectInfoContainer a {
     color: #262525; }
@@ -226,8 +204,7 @@ ul.project-img {
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 3rem;
-  background-color: rgba(255, 255, 255, 0.5);
-  box-shadow: -8px 8px 5px #888888;
+  background-color: #262525;
   padding: 2% 0; }
 
 li.project-li {
@@ -239,149 +216,6 @@ li.project-li {
 i.projectLink.fa.fa-github-square.github {
   font-size: 3.3rem; }
 
-@media (max-width: 800px) {
-  ul.project-img {
-    height: 100%; }
-
-  section.projectContentContainer {
-    height: 100%;
-    width: 87%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; }
-
-  .shadowBoxComp {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 5rem;
-    margin: 0 auto; }
-
-  .shadowBoxImgContainer {
-    display: flex;
-    justify-content: left;
-    height: 17rem;
-    width: 17rem;
-    flex-direction: column;
-    background-size: cover;
-    background-position: center; }
-
-  figure.img-atta {
-    background-size: contain;
-    height: 20rem;
-    width: 20rem;
-    margin: 0; }
-
-  figure.img-atta0 {
-    background-size: cover;
-    height: 10rem;
-    width: 20rem !important; }
-
-  .shadowBtn {
-    font-size: 3rem; }
-
-  .buttonContainer {
-    justify-content: space-between;
-    display: flex;
-    width: 107%;
-    margin-top: 10px; }
-
-  .projectInfoContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0px; }
-
-  .linkContainer {
-    margin: 1rem 0; }
-
-  p.projectPageInfo {
-    width: 95%; }
-
-  h2.projectName {
-    font-size: 18px;
-    margin: 0px auto;
-    width: 70%;
-    margin-top: 1rem;
-    text-align: center; } }
-@media (min-width: 801px) {
-  section.projectContentContainer {
-    width: 87%; }
-
-  .shadowBoxImgContainer {
-    width: 95%; }
-
-  .shadowBoxComp, .projectInfoContainer {
-    width: 49%; }
-
-  figure.shadowBoxImg {
-    margin: 0 1rem; }
-
-  figure.img-atta0 {
-    background-size: contain !important;
-    margin: 0 1rem; }
-
-  h2.projectName {
-    font-size: 20px; }
-
-  p.projectPageInfo {
-    width: 95%; }
-
-  .shadowBtn {
-    font-size: 3rem; }
-
-  .shadowLiBtn {
-    height: 13px;
-    width: 13px; } }
-@media (min-width: 1100px) {
-  .shadowBoxImgContainer {
-    width: 100%; }
-
-  figure.shadowBoxImg {
-    margin: 0 1rem; }
-
-  .projectInfoContainer {
-    margin-top: 59px; } }
-@media (min-width: 1200px) {
-  .shadowBoxImgContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 430px;
-    width: 100%; }
-
-  figure.shadowBoxImg {
-    height: 75%;
-    width: 85%;
-    background-size: cover;
-    background-repeat: no-repeat; }
-
-  figure.img-atta {
-    background-size: contain;
-    width: 50%;
-    height: 24rem; }
-
-  figure.img-atta0 {
-    background-size: cover;
-    width: 100%;
-    height: 15rem; }
-
-  figure.img-sohStory {
-    background-size: cover;
-    width: 100%;
-    height: 95%; }
-
-  p.projectPageInfo {
-    width: 400px;
-    color: #262525; } }
-@media (min-width: 1440px) {
-  ul.project-img {
-    display: flex;
-    height: 582px;
-    width: 75%; } }
 #modalContainer {
   position: fixed;
   top: 0;
@@ -576,29 +410,36 @@ body {
   line-height: 1.5;
   font-family: sans-serif;
   background-color: #ABABAB;
-  background-image: url("assets/background2.png");
   background-size: cover; }
+
+section {
+  width: 40rem; }
 
 img.haley {
   margin-top: 42px; }
 
 .home-content-container {
-  display: flex;
+  display: block;
   height: 603px;
   background-color: #fff;
   width: 87%;
+  height: 90rem;
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 3rem;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: white;
   box-shadow: -8px 8px 5px #888888; }
+
+.box {
+  display: flex; }
 
 .bio {
   margin-top: 1rem;
   margin-left: .5rem; }
 
 .home-side-container {
-  margin-left: 0rem; }
+  margin-left: 0rem;
+  margin-top: 2rem; }
 
 p.p-about-me {
   width: 95%;
@@ -682,13 +523,33 @@ li.homeName {
 li.title {
   font-size: 1.1rem; }
 
+.logo-info {
+  display: flex;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  width: 87%;
+  height: 120px;
+  margin: 0 auto;
+  flex-direction: row; }
+
+.logoLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  height: 100%; }
+
 @media (min-width: 300px) {
   .bio {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    margin-left: 0; }
+    margin-left: 0;
+    width: 55%; }
+
+  .logo-info {
+    display: block; }
 
   img.haley {
     width: 13rem; }
@@ -697,7 +558,7 @@ li.title {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 80rem;
+    height: 90rem;
     margin: 0 auto;
     margin-top: 1rem; }
 
@@ -713,7 +574,7 @@ li.title {
     margin: 1rem auto; }
 
   li.skills {
-    width: 75%;
+    width: 77%;
     text-align: justify; }
 
   p.p-about-mez {
@@ -725,12 +586,17 @@ li.title {
 
   iframe {
     width: 50% !important;
-    height: 90%;
-    margin: 0 auto; }
+    height: 90%; }
 
   p.p-about-me {
     width: 20rem;
-    text-align: left; } }
+    text-align: left; }
+
+  section {
+    width: 22rem; }
+
+  .box {
+    display: inline-block; } }
 @media (min-width: 950px) {
   .home-content-container {
     flex-direction: row;
@@ -747,12 +613,6 @@ li.title {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
-
-  iframe {
-    display: block;
-    height: 100%;
-    margin: 0 auto;
-    width: 75% !important; }
 
   .bio {
     height: 79%;
@@ -771,7 +631,7 @@ li.title {
     margin: 0; }
 
   li.title {
-    width: 100%;
+    width: 85%;
     margin: 0 auto;
     font-size: 1.1rem; }
 
@@ -779,7 +639,6 @@ li.title {
     width: 29rem; }
 
   .logo-info {
-    flex-direction: row;
     align-items: flex-end;
     justify-content: space-between; }
 
@@ -810,6 +669,15 @@ li.title {
     width: 96%; }
 
   li.homeName {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+
+  .box {
+    display: inline-flex; }
+
+  .logo-info {
+    display: flex; }
+
+  section {
+    width: 40rem; } }
 
 /*# sourceMappingURL=main.css.map */

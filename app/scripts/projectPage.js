@@ -43,10 +43,14 @@ render() {
       <Nav />
       <section className="projectContentContainer">
         <ShadowBox images={project.shadowBoxImg}/>
+
+
         <div className="projectInfoContainer">
         <h2 className="projectName">{project.name}</h2>
           <p className="projectPageInfo">{project.about}</p>
           <div className="linkContainer">
+
+
             {videoBtn}
             <a href={project.git} className="github"><i className="projectLink fa fa-github-square github" aria-hidden="true"></i></a>
           </div>

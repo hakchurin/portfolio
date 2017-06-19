@@ -66,16 +66,30 @@ export default React.createClass({
     return(
     <div className="shadowBoxComp">
       <div className="shadowBoxImgContainer">
+
+
+
+                <i onClick={this.showBack} className="shadowBtn backBtn fa fa-chevron-circle-left" aria-hidden="true"></i>
+
         <figure id={this.state.slide} className={className} style={{backgroundImage:`url(${this.state.images[this.state.currentImg]})`}}></figure>
-      </div>
-      <div className="buttonContainer">
-        <i onClick={this.showBack} className="shadowBtn backBtn fa fa-chevron-circle-left" aria-hidden="true"></i>
-        <ul className="shadowUlBtn">
-          {shadowBtns}
-        </ul>
+
         <i onClick={this.showNext} className="shadowBtn nextBtn fa fa-chevron-circle-right" aria-hidden="true"></i>
+
+
+
       </div>
+
+
+
     </div>
     );
   }
 });
+
+
+    // <div className="buttonContainer">
+      // </div>
+
+      // <ul className="shadowUlBtn">
+      //   {shadowBtns}
+      // </ul>

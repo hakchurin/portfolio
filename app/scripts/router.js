@@ -8,7 +8,6 @@ import resume from './resume';
 import contact from './contact';
 
 
-
   const router = (
     <Router history = {browserHistory}>
       <Route path = "/" component = {home}/>
@@ -18,6 +17,7 @@ import contact from './contact';
       <Route path = "/projects" component = {projects}/>
       <Route path = "/projects/:projectpage" component = {projectPage}/>
       <Route path = "/resume" component = {resume}/>
+
     </Router>
 
   )

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import ReactPlayer from 'react-player';
 import Nav from './nav';
@@ -8,8 +7,10 @@ export default React.createClass({
   render() {
     return (
       <div className="home-component">
-        <Nav />
+
         <div className="home-content-container">
+                <Nav />
+                <div className="box">
         <div className="bio">
           <img src="/assets/haley.jpg" className="haley" />
           <ul className="ul-title">
@@ -25,6 +26,8 @@ export default React.createClass({
              Greetings! My name is Haley Akchurin, I am a Front-End Developer and Motion Graphic Designer. Born and Raised in the San Francisco Bay Area, I came into this world a fine artist and grew into a mature Motiongrapher with a BS degree in Motion Graphic Design. Having the drive to grow and learn more, I furthered my education by obtaining a certificate in Front-End Development. I enjoy 3D modeling, title sequences, and color. My hopes are to become a colossal designer, creating an atistic motif that can be translated, understood, and appreciated amongst a wide variety of people. When I am not behind a computer, you can find me in a museum, at the gym, or on the couch catching up on reality television.
              </p>
            </section>
+           </div>
+
          </div>
          </div>
       </div>

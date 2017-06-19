@@ -5,9 +5,9 @@ import router from './router';
 const Nav = React.createClass({
 render: function() {
     return (
-      <div>
+
         <div className="logo-info">
-          <Link to="/" className="logoLink"><img src="/assets/logo.png" className="logo"/>
+          <Link to="/" className="logoLink"><img src="/assets/haley-logo.png" className="logo"/>
           <h1> Haley Akchurin </h1></Link>
           <div id="nav-component">
             <ul className="ul-links">
@@ -18,7 +18,7 @@ render: function() {
             </ul>
           </div>
         </div>
-      </div>
+
     );
   }
 });
