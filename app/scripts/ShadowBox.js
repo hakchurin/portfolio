@@ -69,7 +69,7 @@ export default React.createClass({
 
 
 
-                <i onClick={this.showBack} className="shadowBtn backBtn fa fa-chevron-circle-left" aria-hidden="true"></i>
+        <i onClick={this.showBack} className="shadowBtn backBtn fa fa-chevron-circle-left" aria-hidden="true"></i>
 
         <figure id={this.state.slide} className={className} style={{backgroundImage:`url(${this.state.images[this.state.currentImg]})`}}></figure>
 

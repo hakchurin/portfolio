@@ -5,7 +5,8 @@ div#nav-component {
   justify-content: flex-end;
   margin-top: 1.5rem;
   font-weight: bold;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  font-family: SF New Republic; }
 
 .ul-links {
   list-style-type: none;
@@ -100,11 +101,12 @@ img.logo {
   align-items: center;
   justify-content: center;
   height: 45rem;
-  width: 65rem; }
+  width: 65rem;
+  margin: 0 auto;
+  position: relative;
+  left: 195px; }
 
 figure.shadowBoxImg {
-  margin: 0;
-  margin-bottom: 11rem;
   height: 80%;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -128,21 +130,9 @@ p.projectPageInfo {
   width: 400px;
   color: #262525; }
 
-section.projectContentContainer {
-  flex-direction: column;
-  display: flex;
-  height: 582px;
-  width: 1120px;
-  margin: 0 auto;
-  margin-top: 40px;
-  margin-bottom: 3rem;
-  background-color: rgba(255, 255, 255, 0.5);
-  box-shadow: -8px 8px 5px #888888;
-  padding: 2% 0; }
-
 .shadowBtn {
   font-size: 5rem;
-  color: #9D8CA1; }
+  color: black; }
   .shadowBtn:hover {
     cursor: pointer; }
 
@@ -177,7 +167,11 @@ h2.projectName {
 .projectInfoContainer {
   align-items: center;
   flex-direction: row;
-  margin-top: 3rem; }
+  margin-top: 3rem;
+  margin: 0 auto;
+  position: relative;
+  left: 575px;
+  bottom: 20px; }
   .projectInfoContainer a {
     color: #262525; }
     .projectInfoContainer a:hover {
@@ -233,7 +227,7 @@ i.projectLink.fa.fa-github-square.github {
   align-items: center;
   height: 65%;
   width: 90%;
-  max-width: 41rem;
+  max-width: 45rem;
   background-color: #FFF; }
   #modalContent h2 {
     margin: 0;
@@ -300,8 +294,6 @@ form {
   justify-content: space-around; }
 
 .contactStyle {
-  background-color: rgba(255, 255, 255, 0.5);
-  box-shadow: -8px 8px 5px #888888;
   width: 87%;
   margin: 0 auto;
   display: flex;
@@ -331,7 +323,8 @@ textarea.message {
   height: 13rem;
   width: 25rem;
   margin: 0 auto;
-  border: 1px solid #ABABAB; }
+  border: 1px solid #ABABAB;
+  border: none; }
 
 input.message::-webkit-input-placeholder {
   color: #F3C969;
@@ -341,17 +334,20 @@ input.name {
   height: 2rem;
   width: 25rem;
   margin: 0 auto;
-  margin-top: 1.5rem; }
+  margin-top: 1.5rem;
+  border: none; }
 
 input.email {
   height: 2rem;
   width: 25rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+  border: none; }
 
 input.subject {
   height: 2rem;
   width: 25rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+  border: none; }
 
 h2.emailHead {
   text-align: center;
@@ -374,8 +370,6 @@ h2.emailHead {
 .resumeStyle {
   width: 87%;
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.5);
-  box-shadow: -8px 8px 5px #888888;
   margin-top: 40px;
   height: 94rem; }
 
@@ -518,7 +512,8 @@ li.skills {
 
 li.homeName {
   font-size: 1.5rem;
-  font-weight: 600; }
+  font-weight: 600;
+  font-family: SF New Republic; }
 
 li.title {
   font-size: 1.1rem; }

@@ -150,7 +150,6 @@ justify-content: center;
 li.homeName{
     font-size: 1.5rem;
     font-weight: 600;
-    font-family: SF New Republic;
 }
 
   li.title{
@@ -181,7 +180,7 @@ li.homeName{
 
 
 
-@media (min-width: 300px){
+@media (max-width: 300px){
   .bio {
     display: flex;
     flex-direction: column;
@@ -254,7 +253,7 @@ section{
 }
 }
 
-@media(min-width: 950px) {
+@media(max-width: 950px) {
   .home-content-container {
     flex-direction: row;
     justify-content: center;
@@ -326,7 +325,7 @@ section{
     }
 }
 
-@media(min-width: 1150px){
+@media(max-width: 1150px){
 img.haley{
   width: 23rem;
   height: 22.5rem;
