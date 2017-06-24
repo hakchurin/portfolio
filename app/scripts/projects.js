@@ -5,7 +5,7 @@ import Nav from './nav';
 import info from './info';
 import ProjectsPreview from './ProjectsPreview';
 
-//
+
 export default React.createClass({
   render() {
     let projectsArr = info.map((project, i) => {

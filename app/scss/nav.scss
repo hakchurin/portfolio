@@ -1,12 +1,12 @@
 div#nav-component {
-  width: 69%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  margin-top: 1.5rem;
-  font-weight: bold;
-  font-size: 1.2rem;
-      font-family: SF New Republic;
+    font-weight: bold;
+    font-size: 1.2rem;
+    left: 161px;
+    font-family: SF New Republic;
+    margin: 0 auto;
+    position: relative;
+    top: 44px;
+    width: 50%;
 }
 
 .ul-links {
@@ -50,7 +50,7 @@ img.logo {
 
 
 
-@media (min-width: 300px) {
+@media (max-width: 300px) {
  h1{
    width: 100%;
    margin-top: 2rem;
@@ -119,15 +119,13 @@ img.logo {
 
 }
 
-@media(min-width: 950px){
+@media(max-width: 950px){
   div#nav-component {
     margin: 0 auto;
     font-size: 1rem;
 
     ul.ul-links{
         width: 80%;
-
-
     }
   }
 

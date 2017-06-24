@@ -30,21 +30,17 @@ section{
 
 img.haley{
   margin-top: 42px;
-
+  height: 480px;
 }
 
 .home-content-container {
     display: block;
     height: 603px;
-    background-color: #fff;
     width: 87%;
-    height: 90rem;
+    height: 50rem;
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom:3rem;
-    background-color: rgb(255,255,255);
-    box-shadow: -8px 8px 5px #888888;
-
 }
 
 
@@ -61,7 +57,9 @@ margin-left: .5rem;
 
 .home-side-container{
   margin-left: 0rem;
-margin-top: 2rem;
+  margin-top: 2rem;
+  position: relative;
+    left: 90px;
 }
 
 p.p-about-me {
@@ -70,7 +68,7 @@ p.p-about-me {
     margin-left: 0.5rem;
     font-family: 'Quattrocento Sans', sans-serif;
     font-size: 16px;
-margin: 7px auto;
+    margin: 7px auto;
 }
 
 li {
@@ -86,9 +84,9 @@ ul.ul-title{
 }
 
 li.skills{
-  text-align: justify;
-width: 23rem;
-font-size: .8rem;
+    text-align: justify;
+    width: 23rem;
+    font-size: .8rem;
 
 }
 
@@ -181,7 +179,7 @@ li.homeName{
 
 
 
-@media (min-width: 300px){
+@media (max-width: 300px){
   .bio {
     display: flex;
     flex-direction: column;
@@ -254,7 +252,7 @@ section{
 }
 }
 
-@media(min-width: 950px) {
+@media(max-width: 950px) {
   .home-content-container {
     flex-direction: row;
     justify-content: center;
@@ -326,11 +324,11 @@ section{
     }
 }
 
-@media(min-width: 1150px){
-img.haley{
-  width: 23rem;
-  height: 22.5rem;
-  }
+@media(max-width: 1150px){
+    img.haley{
+          width: 23rem;
+          height: 22.5rem;
+      }
   .home-side-container{
     margin-right:2rem;
     margin-bottom: 4.5rem;

@@ -1,12 +1,12 @@
 div#nav-component {
-  width: 69%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  margin-top: 1.5rem;
   font-weight: bold;
   font-size: 1.2rem;
-  font-family: SF New Republic; }
+  left: 161px;
+  font-family: SF New Republic;
+  margin: 0 auto;
+  position: relative;
+  top: 44px;
+  width: 50%; }
 
 .ul-links {
   list-style-type: none;
@@ -35,7 +35,7 @@ img.logo {
   height: 70%;
   font-weight: 700; }
 
-@media (min-width: 300px) {
+@media (max-width: 300px) {
   h1 {
     width: 100%;
     margin-top: 2rem;
@@ -87,7 +87,7 @@ img.logo {
     display: flex;
     align-items: center;
     justify-content: space-around; } }
-@media (min-width: 950px) {
+@media (max-width: 950px) {
   div#nav-component {
     margin: 0 auto;
     font-size: 1rem; }
@@ -104,7 +104,7 @@ img.logo {
   width: 65rem;
   margin: 0 auto;
   position: relative;
-  left: 195px; }
+  left: 240px; }
 
 figure.shadowBoxImg {
   height: 80%;
@@ -198,7 +198,6 @@ ul.project-img {
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 3rem;
-  background-color: #262525;
   padding: 2% 0; }
 
 li.project-li {
@@ -410,19 +409,17 @@ section {
   width: 40rem; }
 
 img.haley {
-  margin-top: 42px; }
+  margin-top: 42px;
+  height: 480px; }
 
 .home-content-container {
   display: block;
   height: 603px;
-  background-color: #fff;
   width: 87%;
-  height: 90rem;
+  height: 50rem;
   margin: 0 auto;
   margin-top: 40px;
-  margin-bottom: 3rem;
-  background-color: white;
-  box-shadow: -8px 8px 5px #888888; }
+  margin-bottom: 3rem; }
 
 .box {
   display: flex; }
@@ -433,7 +430,9 @@ img.haley {
 
 .home-side-container {
   margin-left: 0rem;
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  position: relative;
+  left: 90px; }
 
 p.p-about-me {
   width: 95%;
@@ -534,7 +533,7 @@ li.title {
   color: black;
   height: 100%; }
 
-@media (min-width: 300px) {
+@media (max-width: 300px) {
   .bio {
     display: flex;
     flex-direction: column;
@@ -592,7 +591,7 @@ li.title {
 
   .box {
     display: inline-block; } }
-@media (min-width: 950px) {
+@media (max-width: 950px) {
   .home-content-container {
     flex-direction: row;
     justify-content: center;
@@ -644,7 +643,7 @@ li.title {
   div#nav-component {
     width: 80%;
     margin: 0; } }
-@media (min-width: 1150px) {
+@media (max-width: 1150px) {
   img.haley {
     width: 23rem;
     height: 22.5rem; }

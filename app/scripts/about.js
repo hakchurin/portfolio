@@ -12,7 +12,7 @@ export default React.createClass({
                 <Nav />
                 <div className="box">
         <div className="bio">
-          <img src="/assets/haley.jpg" className="haley" />
+          <img src="/assets/haley_img.png" className="haley" />
           <ul className="ul-title">
             <li className="homeName">Haley Akchurin</li>
             <li className="title">Motion Graphic Designer & Front-End Developer</li>
