@@ -17,18 +17,20 @@ var info = [
     git:`https://github.com/hakchurin/Snack-Attack`,
     url:'http://snack-attack.surge.sh/',
     about: 'A computer game created with HTML5 Canvas and Javascript, where the objective is to catch as many falling foods with the frying pan as possible in the time alloted '
-  }, {
-    id:3,
-    image:'/assets/sohColor.png',
-    projectRoute: 'SarahOliverHandbags',
-    name: 'Sarah Oliver Handbags',
-    shadowBoxImg:['/assets/soh/sohStory1.png','/assets/soh/sohStory2.png','/assets/soh/sohStory3.png','/assets/soh/sohStory4.png','/assets/soh/sohStory6.png'],
-    about:'Sarah Oliver Handbags offers elegant designer purses and clutches with a twist: every equisite bag is made by The Purlettes, the unique knitting team comprised of talented senior citizens. Sarah Oliver Handbags wanted to rebrand their image to attract a younger demographic, hoping to expand their market to women of all ages.',
-    film: 'Dorian Cohen &  Daniella Flores',
-    url:'https://vimeo.com/136872427',
-    videoURL:'https://vimeo.com/136872427'
-
-  }, {
+  },
+  //  {
+  //   id:3,
+  //   image:'/assets/sohColor.png',
+  //   projectRoute: 'SarahOliverHandbags',
+  //   name: 'Sarah Oliver Handbags',
+  //   shadowBoxImg:['/assets/soh/sohStory1.png','/assets/soh/sohStory2.png','/assets/soh/sohStory3.png','/assets/soh/sohStory4.png','/assets/soh/sohStory6.png'],
+  //   about:'Sarah Oliver Handbags offers elegant designer purses and clutches with a twist: every equisite bag is made by The Purlettes, the unique knitting team comprised of talented senior citizens. Sarah Oliver Handbags wanted to rebrand their image to attract a younger demographic, hoping to expand their market to women of all ages.',
+  //   film: 'Dorian Cohen &  Daniella Flores',
+  //   url:'https://vimeo.com/136872427',
+  //   videoURL:'https://vimeo.com/136872427'
+  //
+  // },
+   {
    id:4,
    name:'Save The Bay',
    image:'/assets/stbColor.png',
@@ -64,15 +66,17 @@ var info = [
    shadowBoxImg:['/assets/vh1/vh11.png', '/assets/vh1/vh12.png', '/assets/vh1/vh13.png'],
    about:'An unreleased bumper for VH1 Television Network. Modeled in Cinema 4D and After Effects.',
    videoURL:'https://vimeo.com/145188793'
- }, {
-   id:8,
-   name:'Saturn',
-   projectRoute: 'Saturn',
-   image:'/assets/saturnColor.png',
-   videoURL:'https://vimeo.com/149682799',
-   shadowBoxImg:['/assets/saturn/saturn1.png','/assets/saturn/saturn2.png', '/assets/saturn/saturn3.png'],
-   about:'A 3D model of a Solar System scene which includes a train, Saturn, and an astronaut designed in Cinema 4D.'
- }, {
+ },
+ // {
+ //   id:8,
+ //   name:'Saturn',
+ //   projectRoute: 'Saturn',
+ //   image:'/assets/saturnColor.png',
+ //   videoURL:'https://vimeo.com/149682799',
+ //   shadowBoxImg:['/assets/saturn/saturn1.png','/assets/saturn/saturn2.png', '/assets/saturn/saturn3.png'],
+ //   about:'A 3D model of a Solar System scene which includes a train, Saturn, and an astronaut designed in Cinema 4D.'
+ // },
+ {
    id:9,
    name:'Flatiron',
    projectRoute: 'Flatiron',
@@ -80,15 +84,17 @@ var info = [
    videoURL:'https://vimeo.com/145181949',
    shadowBoxImg:['/assets/flatiron/flatiron.png'],
    about:'A timelapse of the Flatirons in Boulder,Colorado.'
- }, {
-   id:10,
-   name:'Wilderness',
-   projectRoute: 'Wilderness',
-   image:'/assets/wildernessColor.png',
-   shadowBoxImg:['/assets/wilderness/wilderness1.png', '/assets/wilderness/wilderness3.png'],
-   videoURL:'https://vimeo.com/145181464',
-   about:'Inspired by David Hockney: Seven Yorkshire Landscape Videos, 2011, I created my own rendition in the Redwood Regional Forest and Muir Woods in California.'
- }, {
+ },
+ // {
+ //   id:10,
+ //   name:'Wilderness',
+ //   projectRoute: 'Wilderness',
+ //   image:'/assets/wildernessColor.png',
+ //   shadowBoxImg:['/assets/wilderness/wilderness1.png', '/assets/wilderness/wilderness3.png'],
+ //   videoURL:'https://vimeo.com/145181464',
+ //   about:'Inspired by David Hockney: Seven Yorkshire Landscape Videos, 2011, I created my own rendition in the Redwood Regional Forest and Muir Woods in California.'
+ // },
+ {
    id:11,
    name:'Jeopardy',
    image:'/assets/jeopardy/jep.png',
@@ -97,7 +103,8 @@ var info = [
    git:`https://github.com/hakchurin/Jeopardy`,
    shadowBoxImg:['/assets/jeopardy/jeopardy.png'],
    about:'Made with React.js, my Jeopardy board renders random categories and questions from the actual Jeopardy API game clues and questions.',
- }, {
+ },
+ {
    id:12,
    name:'Salty Beaver Taproom',
    image:'/assets/menu/salty.png',

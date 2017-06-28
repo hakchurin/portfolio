@@ -29,8 +29,11 @@ section{
 }
 
 img.haley{
-  margin-top: 42px;
+  margin-top: 16px;
   height: 420px;
+    width: 17rem;
+    // margin-top: 1rem;
+    height: 17rem;
 
 }
 
@@ -41,7 +44,7 @@ img.haley{
     width: 87%;
     height: 90rem;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom:3rem;
     background-color: rgb(255,255,255);
     box-shadow: -8px 8px 5px #888888;
@@ -197,9 +200,7 @@ li.homeName{
 
 }
 
-  img.haley {
-    width: 13rem;
-  }
+
 
   .home-content-container{
     flex-direction: column;
@@ -286,11 +287,7 @@ section{
         margin-bottom: 7.3rem;
   }
 
-  img.haley{
-    width: 17rem;
-    margin-top: 1rem;
-    height: 17rem;
-  }
+
   ul.ul-title {
       width: 90%;
     }

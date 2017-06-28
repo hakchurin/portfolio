@@ -111,6 +111,9 @@ figure.shadowBoxImg {
   background-size: contain;
   background-repeat: no-repeat; }
 
+figure.shadowBoxImg.img-atta0 {
+  height: 50vh; }
+
 figure.img-atta {
   background-size: contain;
   width: 50%;
@@ -127,7 +130,7 @@ figure.img-sohStory {
   height: 95%; }
 
 p.projectPageInfo {
-  width: 400px;
+  width: 610px;
   color: #262525; }
 
 .shadowBtn {
@@ -170,12 +173,12 @@ h2.projectName {
   margin-top: 3rem;
   margin: 0 auto;
   position: relative;
-  left: 575px;
+  left: 490px;
   bottom: 20px; }
   .projectInfoContainer a {
     color: #262525; }
     .projectInfoContainer a:hover {
-      color: #9D8CA1;
+      color: rgba(243, 192, 58, 0.7);
       cursor: pointer; }
 
 .linkContainer {
@@ -189,12 +192,12 @@ h2.projectName {
   font-size: 3rem; }
   .projectLink:hover, .videoBtn:hover {
     cursor: pointer;
-    color: #9D8CA1; }
+    color: rgba(243, 192, 58, 0.7); }
 
 ul.project-img {
   display: flex;
   height: 582px;
-  width: 75%;
+  width: 55%;
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 3rem;
@@ -208,6 +211,10 @@ li.project-li {
 
 i.projectLink.fa.fa-github-square.github {
   font-size: 3.3rem; }
+
+ul.project-img {
+  width: 55%;
+  height: 80%; }
 
 #modalContainer {
   position: fixed;
@@ -303,20 +310,20 @@ form {
 
 input.submit {
   text-decoration: none;
-  background-color: white;
-  border-top: thick hidden #ff0000;
-  border-right: 2px hidden black;
-  border-left: 2px solid #9D8CA1;
-  width: 8rem;
+  background-color: rgba(243, 192, 58, 0.7);
+  border: none;
+  width: 20.3rem;
   height: 2rem;
-  border-bottom: 3px solid #9D8CA1;
   margin: 0 auto;
   transform: translateY(8px);
-  cursor: pointer; }
+  cursor: pointer;
+  font-family: SF New Republic;
+  font-size: 1rem; }
 
 input.text::-webkit-input-placeholder {
   text-align: left;
-  margin-top: 5rem; }
+  margin-top: 5rem;
+  font-family: SF New Republic; }
 
 textarea.message {
   height: 13rem;
@@ -325,9 +332,16 @@ textarea.message {
   border: 1px solid #ABABAB;
   border: none; }
 
+textarea.message::-webkit-input-placeholder {
+  font-family: SF New Republic; }
+
 input.message::-webkit-input-placeholder {
   color: #F3C969;
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem;
+  font-family: SF New Republic; }
+
+input.name::-webkit-input-placeholder {
+  font-family: SF New Republic; }
 
 input.name {
   height: 2rem;
@@ -340,19 +354,22 @@ input.email {
   height: 2rem;
   width: 25rem;
   margin: 0 auto;
-  border: none; }
+  border: none;
+  font-family: SF New Republic; }
 
 input.subject {
   height: 2rem;
   width: 25rem;
   margin: 0 auto;
-  border: none; }
+  border: none;
+  font-family: SF New Republic; }
 
 h2.emailHead {
   text-align: center;
   margin: 0 auto;
   transform: translateY(20px);
-  font-size: 3rem; }
+  font-size: 3rem;
+  font-family: SF New Republic; }
 
 @media (min-width: 300px) {
   input.name {
@@ -389,7 +406,7 @@ img.resumeImg {
     height: 62.5rem; }
 
   ul.project-img {
-    width: 87.5%;
+    width: 55%;
     height: 80%; } }
 @media (min-width: 1441px) {
   .resumeStyle {
@@ -409,7 +426,7 @@ section {
   width: 40rem; }
 
 img.haley {
-  margin-top: 42px;
+  margin-top: 16px;
   height: 480px; }
 
 .home-content-container {

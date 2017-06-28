@@ -17,6 +17,10 @@ figure.shadowBoxImg {
   background-repeat: no-repeat;
 }
 
+figure.shadowBoxImg.img-atta0 {
+    height: 50vh;
+}
+
 figure.img-atta {
   background-size: contain;
   width: 50%;
@@ -38,7 +42,7 @@ figure.img-sohStory {
 
 
 p.projectPageInfo {
-    width: 400px;
+    width: 610px;
     color:$font-color;
 }
 
@@ -92,14 +96,14 @@ h2.projectName{
     margin-top: 3rem;
     margin: 0 auto;
     position: relative;
-    left: 575px;
+    left: 490px;
     bottom: 20px;
 
   a{
     color:$font-color;
 
     &:hover{
-      color:$tertiary;
+      color:$accent;
       cursor: pointer;
     }
   }
@@ -117,18 +121,17 @@ h2.projectName{
   font-size: 3rem;
   &:hover{
     cursor:pointer;
-    color:$tertiary;
+    color:$accent;
   }
 }
 
 ul.project-img{
   display: flex;
   height: 582px;
-  width: 75%;
+  width: 55%;
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 3rem;
-  // background-color: #262525;
   padding: 2% 0;
 }
 
@@ -142,3 +145,8 @@ li.project-li{
 i.projectLink.fa.fa-github-square.github{
   font-size:3.3rem;
 }
+
+ul.project-img {
+      width: 55%;
+      height:80%;
+  }

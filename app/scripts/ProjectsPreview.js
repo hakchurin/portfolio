@@ -4,6 +4,8 @@ import projectPage from './projectPage';
 import {Router, Route, browserHistory} from 'react-router';
 
 
+// this is the hover state over the squares that show the title of my project on the grid
+
 
 export default React.createClass({
   getInitialState() {

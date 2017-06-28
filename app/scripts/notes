@@ -1,0 +1,17 @@
+
+projects
+the project page is the page showing the squares of all my projects. shows an image of my projects and bringing int he array of all my proects in the info array.
+
+
+ ProjectsPreview
+ this is only the hover transition of the title that is shown when hovered over the projects
+
+
+project ProjectsPreview
+- on the state go to project, the router link goes to that specific project
+project preview also goes to the project that you clicked on
+
+
+
+project page
+the single project page that shows EX: snack attack and the shadow box and video and github repo

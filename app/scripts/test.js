@@ -1,8 +1,10 @@
 import React from 'react';
-import info from './info';
+import MFinfo from './MFinfo';
 import projectPage from './projectPage';
 import {Router, Route, browserHistory} from 'react-router';
 
+
+// this is the hover state over the squares that show the title of my project on the grid
 
 
 export default React.createClass({
