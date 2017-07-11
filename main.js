@@ -1406,7 +1406,7 @@ exports.default = router;
     // the core primitive operation of a model, updating the data and notifying
     // anyone who needs to know about the change in state. The heart of the beast.
     set: function(key, val, options) {
-      if (key == null) return this;
+      if (key === null) return this;
 
       // Handle both `"key", value` and `{key: value}` -style arguments.
       var attrs;
