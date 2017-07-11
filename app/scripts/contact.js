@@ -42,7 +42,7 @@ export default React.createClass({
         <div>
           <Nav />
           <div className="confirm-sent contactStyle">
-            <h2 className="emailHead"> Let's Chat! </h2>
+            <h2 className="emailHead"> LET'S CHAT! </h2>
             <p className="confirm-p"> Thank You for your email. </p>
           </div>
         </div>

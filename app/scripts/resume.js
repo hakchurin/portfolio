@@ -7,14 +7,14 @@ import router from './router';
 
 export default React.createClass({
   resume() {
-    window.open('/assets/HaleyAkchurin_Resume.pdf');
+    window.open('/assets/haleyAkchurin_resume.pdf');
   },
   render: function(){
     return(
       <div>
         <Nav />
         <div className="resumeStyle">
-          <img src="/assets/resume.png" className="resumeImg" onClick={this.resume}/>
+          <img src="/assets/resume.jpg" className="resumeImg" onClick={this.resume}/>
         </div>
       </div>
     );

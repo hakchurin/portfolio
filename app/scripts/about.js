@@ -14,16 +14,22 @@ export default React.createClass({
         <div className="bio">
           <img src="/assets/haley_img.png" className="haley" />
           <ul className="ul-title">
-            <li className="homeName">Haley Akchurin</li>
-            <li className="title">Motion Graphic Designer & Front-End Developer</li>
-            <li className="skills"> Illustrator, Photoshop, InDesign, After Effects, Muse, Premiere Pro, Font Lab, Cinema 4D, HTML, CSS/SASS, Javascript, jQuery, React, Backbone, Git, Ajax.  </li>
+            <h1 className="homeName"> Haley Akchurin </h1>
+            <li>Museum aficionado </li>
+            <li>Gym junkie </li>
+            <li>Classical music connoisseur </li>
+            <li> Reality television indulger</li>
+
+
+
           </ul>
         </div>
         <div className="home-side-container">
            <ReactPlayer url='https://vimeo.com/151702926'  />
            <section>
              <p className="p-about-me">
-             Greetings! My name is Haley Akchurin, I am a Front-End Developer and Motion Graphic Designer. Born and Raised in the San Francisco Bay Area, I came into this world a fine artist and grew into a mature Motiongrapher with a BS degree in Motion Graphic Design. Having the drive to grow and learn more, I furthered my education by obtaining a certificate in Front-End Development. I enjoy 3D modeling, title sequences, and color. My hopes are to become a colossal designer, creating an atistic motif that can be translated, understood, and appreciated amongst a wide variety of people. When I am not behind a computer, you can find me in a museum, at the gym, or on the couch catching up on reality television.
+             Meet Haley. She began her journey with a new Reeves watercolor 12 tube set and a substantial addiction to Microsoft paint. Her mind runs at 100 miles per second overloaded with thoughts and ideas on everything ranging from creative, crisp, and intuitive designs to her next meal. The world around us has made a slight yet significant shift in technology. Therefore, Haley made a solid yet tactical decision in becoming well-versed in both the art of motion graphics and front-development. Haley found it easier to communicate through stylistic graphics and a compelling choice of color, and having a profound set of problem solving skills made her that much more equipped in the areas of troubleshooting and debugging. Haley enjoys learning and  always strives to be a better person than who she was the day before. In order to have hustle, you must have heart and you will take back more than you put in.
+
              </p>
            </section>
            </div>

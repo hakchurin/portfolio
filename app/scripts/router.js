@@ -18,8 +18,6 @@ import about from './about';
       <Route path = "/projects/:projectpage" component = {projectPage}/>
       <Route path = "/resume" component = {resume}/>
       <Route path = "/about" component = {about}/>
-
-
     </Router>
 
   )

@@ -151,9 +151,11 @@ justify-content: center;
     cursor: pointer;
 }
 
-li.homeName{
+h1.homeName{
     font-size: 1.5rem;
     font-weight: 600;
+    font-family: SF New Republic;
+    margin: 0 auto;
 }
 
   li.title{
@@ -342,7 +344,7 @@ img.haley{
   li.skills{
     width:96%;
   }
-  li.homeName{
+  h1.homeName{
     font-size: 2rem;
   }
 

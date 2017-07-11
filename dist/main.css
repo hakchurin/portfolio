@@ -310,7 +310,6 @@ form {
 
 input.submit {
   text-decoration: none;
-  background-color: rgba(243, 192, 58, 0.7);
   border: none;
   width: 20.3rem;
   height: 2rem;
@@ -318,58 +317,84 @@ input.submit {
   transform: translateY(8px);
   cursor: pointer;
   font-family: SF New Republic;
-  font-size: 1rem; }
+  font-size: 1.5rem;
+  background-color: #dbdad8;
+  color: black;
+  padding: 6px 2px 2px 2px; }
 
 input.text::-webkit-input-placeholder {
   text-align: left;
   margin-top: 5rem;
-  font-family: SF New Republic; }
+  font-family: SF New Republic;
+  font-size: 1.5rem;
+  color: rgba(243, 192, 58, 0.7); }
 
 textarea.message {
   height: 13rem;
   width: 25rem;
   margin: 0 auto;
-  border: 1px solid #ABABAB;
-  border: none; }
+  border: none;
+  background-color: #dbdad8; }
 
 textarea.message::-webkit-input-placeholder {
-  font-family: SF New Republic; }
+  font-family: SF New Republic;
+  font-size: 1.5rem;
+  color: black; }
 
 input.message::-webkit-input-placeholder {
-  color: #F3C969;
   margin-bottom: 3rem;
-  font-family: SF New Republic; }
+  font-family: SF New Republic;
+  font-size: 1.5rem;
+  color: black; }
 
 input.name::-webkit-input-placeholder {
-  font-family: SF New Republic; }
+  font-family: SF New Republic;
+  font-size: 1.5rem;
+  color: black; }
 
 input.name {
   height: 2rem;
   width: 25rem;
   margin: 0 auto;
   margin-top: 1.5rem;
-  border: none; }
+  border: none;
+  background-color: #dbdad8; }
 
 input.email {
   height: 2rem;
   width: 25rem;
   margin: 0 auto;
   border: none;
-  font-family: SF New Republic; }
+  font-family: SF New Republic;
+  background-color: #dbdad8; }
+
+input.email::-webkit-input-placeholder {
+  font-size: 1.5rem;
+  color: black;
+  position: relative;
+  top: 7px; }
 
 input.subject {
   height: 2rem;
   width: 25rem;
   margin: 0 auto;
   border: none;
-  font-family: SF New Republic; }
+  font-family: SF New Republic;
+  background-color: #dbdad8; }
+
+input.subject::-webkit-input-placeholder {
+  font-size: 1.5rem;
+  color: black;
+  position: relative;
+  top: 7px; }
 
 h2.emailHead {
   text-align: center;
   margin: 0 auto;
   transform: translateY(20px);
   font-size: 3rem;
-  font-family: SF New Republic; }
+  font-family: SF New Republic;
+  text-transform: uppercase; }
 
 @media (min-width: 300px) {
   input.name {
@@ -420,7 +445,9 @@ body {
   line-height: 1.5;
   font-family: sans-serif;
   background-color: #ABABAB;
-  background-size: cover; }
+  background-image: url("assets/background3.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 section {
   width: 40rem; }
@@ -443,16 +470,17 @@ img.haley {
 
 .bio {
   margin-top: 1rem;
-  margin-left: .5rem; }
+  position: relative;
+  left: 90px; }
 
 .home-side-container {
   margin-left: 0rem;
   margin-top: 2rem;
   position: relative;
-  left: 90px; }
+  left: 230px; }
 
 p.p-about-me {
-  width: 95%;
+  width: 100%;
   text-align: justify;
   margin-left: 0.5rem;
   font-family: 'Quattrocento Sans', sans-serif;
@@ -526,10 +554,11 @@ li.skills {
   text-align: center;
   cursor: pointer; }
 
-li.homeName {
-  font-size: 1.5rem;
+h1.homeName {
+  font-size: 2rem;
   font-weight: 600;
-  font-family: SF New Republic; }
+  font-family: SF New Republic;
+  margin: 0 auto; }
 
 li.title {
   font-size: 1.1rem; }
@@ -549,6 +578,10 @@ li.title {
   text-decoration: none;
   color: black;
   height: 100%; }
+
+.ul-title li {
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-weight: bold; }
 
 @media (max-width: 300px) {
   .bio {
@@ -679,7 +712,7 @@ li.title {
   li.skills {
     width: 96%; }
 
-  li.homeName {
+  h1.homeName {
     font-size: 2rem; }
 
   .box {
