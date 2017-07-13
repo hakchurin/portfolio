@@ -2,9 +2,9 @@ var info = [
 
     {
       id: 13,
-      image:'/assets/btbColor.png',
+      image:'/assets/VH-profile-pic.png',
       shadowBoxImg: ['/assets/VH/VH-desktop.png','/assets/VH/VH-desktop-2.png', '/assets/VH/VH-mobile.png'],
-      projectRoute: 'BringTheBand',
+    //   projectRoute: 'BringTheBand',
     //   url:'http://bring-the-band.surge.sh/',
       name:' Vincent Harris',
     //   git:`https://github.com/hakchurin/Bring-the-Band`,
@@ -117,16 +117,16 @@ var info = [
    shadowBoxImg:['/assets/jeopardy/jeopardy.png'],
    about:'Made with React.js, my Jeopardy board renders random categories and questions from the actual Jeopardy API game clues and questions.',
  },
- {
-   id:12,
-   name:'Salty Beaver Taproom',
-   image:'/assets/menu/salty.png',
-   projectRoute:'Salty Beaver Taproom',
-   url:'http://saltybeavertaproom.surge.sh/',
-   git:`https://github.com/hakchurin/Salty-Beaver-Taproom`,
-   shadowBoxImg:['/assets/menu/salty1.png', '/assets/menu/salty2.png'],
-   about:'Made with Javescript, jQuery and Backbone, this is an online ordering service allowing you to choose items from the menu that you wish to enjoy.'
- },
+ // {
+ //   id:12,
+ //   name:'Salty Beaver Taproom',
+ //   image:'/assets/menu/salty.png',
+ //   projectRoute:'Salty Beaver Taproom',
+ //   url:'http://saltybeavertaproom.surge.sh/',
+ //   git:`https://github.com/hakchurin/Salty-Beaver-Taproom`,
+ //   shadowBoxImg:['/assets/menu/salty1.png', '/assets/menu/salty2.png'],
+ //   about:'Made with Javescript, jQuery and Backbone, this is an online ordering service allowing you to choose items from the menu that you wish to enjoy.'
+ // },
 ]
 
 export default info;
