@@ -8,7 +8,7 @@ var info = [
     //   url:'http://bring-the-band.surge.sh/',
       name:' Vincent Harris',
     //   git:`https://github.com/hakchurin/Bring-the-Band`,
-      about:  'Created with React.js Bring the Band allows users to vote for musicians they want to see at the venue. The venue hopes to gain a following, and boost their patron engagement by tracking popular bands, and trends in their market share',
+      about:  'Vincent Harris is the Founder and CEO of Harris Media reinventing the digital side of Republican political campaigns. I had the opportunity to revitalize his personal website building it in WordPress using html, css, and PHP plugins.',
     },
 
   {

@@ -481,7 +481,19 @@ var authorization = btoa('kid_r1EaDaz1e:dc3007bfc8d8498fa1397c157a481d18');
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var info = [{
+var info = [
+    {
+      id: 13,
+      image:'/assets/VH-profile-pic.png',
+      shadowBoxImg: ['/assets/VH/VH-desktop.png','/assets/VH/VH-desktop-2.png', '/assets/VH/VH-mobile.png'],
+    //   projectRoute: 'BringTheBand',
+    //   url:'http://bring-the-band.surge.sh/',
+      name:' Vincent Harris',
+    //   git:`https://github.com/hakchurin/Bring-the-Band`,
+      about:  'Vincent Harris is the Founder and CEO of Harris Media reinventing the digital side of Republican political campaigns. I had the opportunity to revitalize his personal website building it in WordPress using html, css, and PHP plugins.',
+    },
+
+    {
   id: 1,
   image: '/assets/btbColor.png',
   shadowBoxImg: ['/assets/btb/login.png', '/assets/btb/btbBand.png', '/assets/btb/btbLogo5.png'],
