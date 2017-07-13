@@ -486,7 +486,7 @@ var info = [
       id: 13,
       image:'/assets/VH-profile-pic.png',
       shadowBoxImg: ['/assets/VH/VH-desktop.png','/assets/VH/VH-desktop-2.png', '/assets/VH/VH-mobile.png'],
-      projectRoute: 'VH',
+      projectRoute: 'VincentHarris',
       url:'http://vincentharris.com',
       name:' Vincent Harris',
     //   git:`https://github.com/hakchurin/Bring-the-Band`,
