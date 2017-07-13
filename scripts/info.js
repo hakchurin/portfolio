@@ -6,7 +6,7 @@ var info = [
       shadowBoxImg: ['/assets/VH/VH-desktop.png','/assets/VH/VH-desktop-2.png', '/assets/VH/VH-mobile.png'],
       projectRoute: 'VincentHarris',
       url:'http://vincentharris.com',
-      name:' Vincent Harris',
+      name:' VincentHarris',
     //   git:`https://github.com/hakchurin/Bring-the-Band`,
       about:  'Vincent Harris is the Founder and CEO of Harris Media reinventing the digital side of Republican political campaigns. I had the opportunity to revitalize his personal website building it in WordPress using html, css, and PHP plugins.',
     },
