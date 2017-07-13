@@ -1,4 +1,16 @@
 var info = [
+
+    {
+      id: 13,
+      image:'/assets/btbColor.png',
+      shadowBoxImg: ['/assets/VH/VH-desktop.png','/assets/VH/VH-desktop-2.png', '/assets/VH/VH-mobile.png'],
+      projectRoute: 'BringTheBand',
+    //   url:'http://bring-the-band.surge.sh/',
+      name:' Vincent Harris',
+    //   git:`https://github.com/hakchurin/Bring-the-Band`,
+      about:  'Created with React.js Bring the Band allows users to vote for musicians they want to see at the venue. The venue hopes to gain a following, and boost their patron engagement by tracking popular bands, and trends in their market share',
+    },
+
   {
     id: 1,
     image:'/assets/btbColor.png',
@@ -8,7 +20,8 @@ var info = [
     name:' Bring The Band',
     git:`https://github.com/hakchurin/Bring-the-Band`,
     about:  'Created with React.js Bring the Band allows users to vote for musicians they want to see at the venue. The venue hopes to gain a following, and boost their patron engagement by tracking popular bands, and trends in their market share',
-  }, {
+  },
+   {
     id:2,
     image:'/assets/snackColor.png',
     projectRoute: 'SnackAttack',
