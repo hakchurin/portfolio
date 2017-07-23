@@ -512,6 +512,16 @@ var info = [
   url: 'http://snack-attack.surge.sh/',
   about: 'A computer game created with HTML5 Canvas and Javascript, where the objective is to catch as many falling foods with the frying pan as possible in the time alloted '
 },
+{
+  id: 11,
+  name: 'Jeopardy',
+  image: '/assets/jeopardy/jep.png',
+  projectRoute: 'Jeopardy',
+  url: 'http://jeopardy-game.surge.sh/',
+  git: 'https://github.com/hakchurin/Jeopardy',
+  shadowBoxImg: ['/assets/jeopardy/jeopardy.png'],
+  about: 'Made with React.js, my Jeopardy board renders random categories and questions from the actual Jeopardy API game clues and questions.'
+},
 //  {
 //   id:3,
 //   image:'/assets/sohColor.png',
@@ -588,16 +598,7 @@ var info = [
 //   videoURL:'https://vimeo.com/145181464',
 //   about:'Inspired by David Hockney: Seven Yorkshire Landscape Videos, 2011, I created my own rendition in the Redwood Regional Forest and Muir Woods in California.'
 // },
-{
-  id: 11,
-  name: 'Jeopardy',
-  image: '/assets/jeopardy/jep.png',
-  projectRoute: 'Jeopardy',
-  url: 'http://jeopardy-game.surge.sh/',
-  git: 'https://github.com/hakchurin/Jeopardy',
-  shadowBoxImg: ['/assets/jeopardy/jeopardy.png'],
-  about: 'Made with React.js, my Jeopardy board renders random categories and questions from the actual Jeopardy API game clues and questions.'
-},
+
 // {
 //   id: 12,
 //   name: 'Salty Beaver Taproom',
