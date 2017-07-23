@@ -277,7 +277,7 @@ exports.default = _react2.default.createClass({
           _react2.default.createElement(
             'div',
             { className: 'bio' },
-            _react2.default.createElement('img', { src: '/assets/haley_img.png', className: 'haley' }),
+            _react2.default.createElement('img', { src: '/assets/haley-new.png', className: 'haley' }),
             _react2.default.createElement(
               'ul',
               { className: 'ul-title' },
