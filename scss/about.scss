@@ -255,6 +255,12 @@ section{
   .box {
     display: inline-block;
 }
+
+img.haley {
+    width: 90%;
+    max-height: 50%;
+}
+
 }
 
 @media(max-width: 950px) {
@@ -327,8 +333,8 @@ section{
 
 @media(max-width: 1150px){
 img.haley{
-  width: 23rem;
-  height: 22.5rem;
+    width: 90%;
+   max-height: 50%;
   }
   .home-side-container{
     margin-right:2rem;

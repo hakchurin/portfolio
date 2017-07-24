@@ -695,8 +695,9 @@ li.title {
     margin: 0; } }
 @media (max-width: 1150px) {
   img.haley {
-    width: 23rem;
-    height: 22.5rem; }
+      width: 90%;
+      max-height: 50%;
+}
 
   .home-side-container {
     margin-right: 2rem;
