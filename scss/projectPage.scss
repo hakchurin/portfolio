@@ -10,8 +10,6 @@
 }
 
 figure.shadowBoxImg {
-  // margin: 0 auto;
-  // margin-bottom: 11rem;
   height: 80%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -44,6 +42,7 @@ figure.img-sohStory {
 p.projectPageInfo {
     width: 610px;
     color:$font-color;
+    font-family: 'Avenir', sans-serif;
 }
 
 
@@ -88,6 +87,8 @@ h2.projectName{
   color:$font-color;
   font-size: 32px;
   margin: 0;
+  font-family: 'SF New Republic', sans-serif;
+
 }
 
 .projectInfoContainer {
