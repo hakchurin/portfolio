@@ -882,7 +882,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = _react2.default.createClass({
   displayName: 'resume',
   resume: function resume() {
-    window.open('/assets/haleyAkchurin_resume.pdf');
+    window.open('/assets/resume_web.pdf');
   },
 
   render: function render() {
@@ -893,7 +893,7 @@ exports.default = _react2.default.createClass({
       _react2.default.createElement(
         'div',
         { className: 'resumeStyle' },
-        _react2.default.createElement('img', { src: '/assets/resume.jpg', className: 'resumeImg', onClick: this.resume })
+        _react2.default.createElement('img', { src: '/assets/resume_web.jpg', className: 'resumeImg', onClick: this.resume })
       )
     );
   }
