@@ -7,7 +7,7 @@ import router from './router';
 
 export default React.createClass({
   resume() {
-    window.open('/assets/haleyAkchurin_resume.pdf');
+    window.open('/assets/resume_web.pdf');
   },
   render: function(){
     return(
