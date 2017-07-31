@@ -490,7 +490,7 @@ var info = [
       url:'http://vincentharris.com',
       name:' VincentHarris',
     //   git:`https://github.com/hakchurin/Bring-the-Band`,
-      about:  'Vincent Harris is the Founder and CEO of Harris Media reinventing the digital side of Republican political campaigns. I had the opportunity to revitalize his personal website building it in WordPress using html, css, and PHP plugins.',
+      about:  'Vincent Harris is the Founder and CEO of Harris Media, reinventing the digital side of Republican political campaigns. I had the opportunity to revitalize his personal website building it in WordPress using HTML, CSS, and PHP plugins.',
     },
 
     {
@@ -501,7 +501,7 @@ var info = [
   url: 'http://bring-the-band.surge.sh/',
   name: ' Bring The Band',
   git: 'https://github.com/hakchurin/Bring-the-Band',
-  about: 'Created with React.js Bring the Band allows users to vote for musicians they want to see at the venue. The venue hopes to gain a following, and boost their patron engagement by tracking popular bands, and trends in their market share'
+  about: 'Created with React.js, Bring the Band allows users to vote for musicians they want to see at a specific venue. The venue hopes to gain a following, and boost their patron engagement by tracking popular bands and trends in their market share.'
 }, {
   id: 2,
   image: '/assets/snackColor.png',
@@ -510,7 +510,7 @@ var info = [
   name: 'Snack Attack',
   git: 'https://github.com/hakchurin/Snack-Attack',
   url: 'http://snack-attack.surge.sh/',
-  about: 'A computer game created with HTML5 Canvas and Javascript, where the objective is to catch as many falling foods with the frying pan as possible in the time alloted '
+  about: 'A computer game created with HTML5 and Javascript, where the objective is to catch as many falling foods with the frying pan as possible in the time alloted. '
 },
 {
   id: 11,
@@ -520,7 +520,7 @@ var info = [
   url: 'http://jeopardy-game.surge.sh/',
   git: 'https://github.com/hakchurin/Jeopardy',
   shadowBoxImg: ['/assets/jeopardy/jeopardy.png'],
-  about: 'Made with React.js, my Jeopardy board renders random categories and questions from the actual Jeopardy API game clues and questions.'
+  about: 'Made with React.js, my Jeopardy board renders random categories and questions from the Jeopardy API game clues and questions.'
 },
 //  {
 //   id:3,
@@ -551,7 +551,7 @@ var info = [
   image: '/assets/attaColor.png',
   projectRoute: 'ATTA',
   shadowBoxImg: ['/assets/atta/atta0.png', '/assets/atta/atta1.png', '/assets/atta/atta2.png', '/assets/atta/atta3.png'],
-  about: 'The Tatars were a very small minority among the many nationalities in California. In order to preserve the traditions of their forefathers, a few induviduals decided to organize the Tatar community declaring that the most important goals were the preservation of their cultural, ethnic, and religious interests of the Tatar community. After being distinguished in the San Francisco Bay Area for over 50 years, the ATTA has decided to rebrand their image and logo to represent a more Americanized organization.',
+  about: 'The Tatars are a very small minority amongst the many nationalities in California. In order to preserve the traditions of their forefathers, a group of dedicated individuals decided to organize the Tatar community, declaring that the most important goals were the preservation of their cultural, ethnic, and religious interests. After being distinguished in the San Francisco Bay Area for over 50 years, the ATTA has decided to rebrand their image and logo to represent a more Americanized organization.',
   url: 'http://www.attasf.org/'
 }, {
   id: 6,
