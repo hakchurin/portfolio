@@ -8,7 +8,7 @@ var info = [
       url:'http://vincentharris.com',
       name:' VincentHarris',
     //   git:`https://github.com/hakchurin/Bring-the-Band`,
-      about:  'Vincent Harris is the Founder and CEO of Harris Media reinventing the digital side of Republican political campaigns. I had the opportunity to revitalize his personal website building it in WordPress using html, css, and PHP plugins.',
+      about:  'Vincent Harris is the Founder and CEO of Harris Media reinventing the digital side of Republican political campaigns. I had the opportunity to revitalize his personal website building it in WordPress using HTML, CSS, and PHP plugins.',
     },
 
   {
@@ -19,7 +19,7 @@ var info = [
     url:'http://bring-the-band.surge.sh/',
     name:' Bring The Band',
     git:`https://github.com/hakchurin/Bring-the-Band`,
-    about:  'Created with React.js Bring the Band allows users to vote for musicians they want to see at the venue. The venue hopes to gain a following, and boost their patron engagement by tracking popular bands, and trends in their market share',
+    about:  'Created with React.js, Bring the Band allows users to vote for musicians they want to see at the venue. The venue hopes to gain a following, boost their patron engagement by tracking popular bands, and trends in their market share',
   },
    {
     id:2,
@@ -29,7 +29,7 @@ var info = [
     name: 'Snack Attack',
     git:`https://github.com/hakchurin/Snack-Attack`,
     url:'http://snack-attack.surge.sh/',
-    about: 'A computer game created with HTML5 Canvas and Javascript, where the objective is to catch as many falling foods with the frying pan as possible in the time alloted '
+    about: 'A computer game created with HTML5 and Javascript, where the objective is to catch as many falling foods with the frying pan as possible in the time alloted '
   },
   //  {
   //   id:3,
