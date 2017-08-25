@@ -8,7 +8,7 @@ var info = [
       url:'http://vincentharris.com',
       name:' VincentHarris',
     //   git:`https://github.com/hakchurin/Bring-the-Band`,
-      about:  'Vincent Harris is the Founder and CEO of Harris Media reinventing the digital side of Republican political campaigns. I had the opportunity to revitalize his personal website building it in WordPress using HTML, CSS, and PHP plugins.',
+      about:  'Vincent Harris is the Founder and CEO of Harris Media reinventing the digital side of Republican political campaigns. I had the opportunity to revitalize his personal website building it in WordPress using HTML, CSS, and PHP plugins. I focused mainly on the UX to ensure users were able to navigate to different pages of his website, making sure information was easily accessible.  ',
     },
 
   {
